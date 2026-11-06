@@ -83,15 +83,6 @@ cp .env.example .env        # add your API keys
 docker compose up --build
 ```
 
-### Services
-
-| Service | URL |
-|---|---|
-| Web app | http://localhost:3000 |
-| API docs (Swagger) | http://localhost:8000/docs |
-| Celery monitor (Flower) | http://localhost:5555 |
-| S3 storage (SeaweedFS) | http://localhost:8333 |
-
 The API runs database migrations and creates the storage bucket automatically on startup.
 The first document processed downloads Docling's layout models (about 1–2 minutes, cached afterwards).
 
