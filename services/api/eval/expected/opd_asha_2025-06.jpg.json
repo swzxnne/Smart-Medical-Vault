@@ -1,0 +1,54 @@
+{
+  "file": "opd_asha_2025-06.jpg",
+  "mime": "image/jpeg",
+  "category": "opd_card",
+  "profile": "Asha Verma",
+  "notes": "",
+  "expect_failure": false,
+  "expected": {
+    "doc_type": "consultation_note",
+    "doc_date": "2025-06-09",
+    "provider": "Green Valley Hospital",
+    "patient_name": "Asha Verma",
+    "name_mismatch": false,
+    "observations": [
+      {
+        "code": "bp_systolic",
+        "value": 138.0,
+        "unit": "mmHg",
+        "date": "2025-06-09",
+        "page": 1
+      },
+      {
+        "code": "bp_diastolic",
+        "value": 88.0,
+        "unit": "mmHg",
+        "date": "2025-06-09",
+        "page": 1
+      },
+      {
+        "code": "pulse",
+        "value": 78.0,
+        "unit": "bpm",
+        "date": "2025-06-09",
+        "page": 1
+      },
+      {
+        "code": "weight",
+        "value": 66.0,
+        "unit": "kg",
+        "date": "2025-06-09",
+        "page": 1
+      },
+      {
+        "code": "spo2",
+        "value": 98.0,
+        "unit": "%",
+        "date": "2025-06-09",
+        "page": 1
+      }
+    ],
+    "medications": [],
+    "conditions": []
+  }
+}

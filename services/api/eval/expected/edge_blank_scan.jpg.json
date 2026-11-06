@@ -1,0 +1,18 @@
+{
+  "file": "edge_blank_scan.jpg",
+  "mime": "image/jpeg",
+  "category": "edge",
+  "profile": "Asha Verma",
+  "notes": "blank photo: pipeline should fail with 'No readable text'",
+  "expect_failure": true,
+  "expected": {
+    "doc_type": null,
+    "doc_date": null,
+    "provider": null,
+    "patient_name": "Asha Verma",
+    "name_mismatch": false,
+    "observations": [],
+    "medications": [],
+    "conditions": []
+  }
+}

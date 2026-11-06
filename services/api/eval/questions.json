@@ -1,0 +1,283 @@
+[
+  {
+    "id": "q01",
+    "question": "What was Asha's HbA1c in March 2024?",
+    "kind": "metric",
+    "profile": null,
+    "must_include": [
+      "6.4"
+    ],
+    "expected_sources": [
+      {
+        "file": "lab_asha_2024-03.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "id": "q02",
+    "question": "What was Asha's BP in 2024?",
+    "kind": "metric",
+    "profile": null,
+    "must_include": [
+      "141/89",
+      "142/91"
+    ],
+    "expected_sources": [
+      {
+        "file": "lab_asha_2024-03.pdf",
+        "page": 1
+      },
+      {
+        "file": "rx_asha_2024-03.docx",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "id": "q03",
+    "question": "How has Asha's HbA1c changed over time?",
+    "kind": "trend",
+    "profile": null,
+    "must_include": [
+      "6.1",
+      "6.4",
+      "6.3"
+    ],
+    "expected_sources": [
+      {
+        "file": "lab_asha_2023-02.pdf",
+        "page": 1
+      },
+      {
+        "file": "lab_asha_2024-03.pdf",
+        "page": 1
+      },
+      {
+        "file": "lab_asha_2025-01.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "id": "q04",
+    "question": "What was Ravi's creatinine in June 2023?",
+    "kind": "metric",
+    "profile": null,
+    "must_include": [
+      [
+        "118.5",
+        "1.34",
+        "1.3"
+      ]
+    ],
+    "expected_sources": [
+      {
+        "file": "lab_ravi_2023-06.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "id": "q05",
+    "question": "What was Ravi's TSH in July 2024?",
+    "kind": "metric",
+    "profile": null,
+    "must_include": [
+      "6.74"
+    ],
+    "expected_sources": [
+      {
+        "file": "lab_ravi_2024-07.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "id": "q06",
+    "question": "Which thyroid medicine is Ravi taking and at what dose?",
+    "kind": "medication",
+    "profile": null,
+    "must_include": [
+      "Levothyroxine",
+      "50 mcg"
+    ],
+    "expected_sources": [
+      {
+        "file": "rx_ravi_2025-02.docx",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "id": "q07",
+    "question": "Why was Ravi admitted to hospital in October 2024?",
+    "kind": "narrative",
+    "profile": null,
+    "must_include": [
+      "gastroenteritis"
+    ],
+    "expected_sources": [
+      {
+        "file": "discharge_ravi_2024-10.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "id": "q08",
+    "question": "What medicines was Ravi given at discharge in April 2025?",
+    "kind": "medication",
+    "profile": null,
+    "must_include": [
+      "Amlodipine",
+      "Telmisartan"
+    ],
+    "expected_sources": [
+      {
+        "file": "discharge_ravi_2025-04.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "q09",
+    "question": "What was Meera's platelet count during dengue?",
+    "kind": "narrative",
+    "profile": null,
+    "must_include": [
+      "0.9"
+    ],
+    "expected_sources": [
+      {
+        "file": "discharge_meera_2024-09.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "id": "q10",
+    "question": "What was Meera's hemoglobin in May 2024?",
+    "kind": "metric",
+    "profile": null,
+    "must_include": [
+      [
+        "11.8",
+        "118"
+      ]
+    ],
+    "expected_sources": [
+      {
+        "file": "lab_meera_2024-05.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "id": "q11",
+    "question": "Which iron supplement was prescribed for Meera?",
+    "kind": "medication",
+    "profile": null,
+    "must_include": [
+      "Ferrous sulphate"
+    ],
+    "expected_sources": [
+      {
+        "file": "rx_meera_2024-05.docx",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "id": "q12",
+    "question": "Has Asha ever had pneumonia?",
+    "kind": "narrative",
+    "profile": null,
+    "must_include": [
+      "pneumonia"
+    ],
+    "expected_sources": [
+      {
+        "file": "discharge_asha_2023-12.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "id": "q13",
+    "question": "Is Ravi's uric acid high?",
+    "kind": "metric",
+    "profile": null,
+    "must_include": [
+      "8"
+    ],
+    "expected_sources": [
+      {
+        "file": "lab_ravi_2025-02.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "q14",
+    "question": "What vitamin D dose was Asha prescribed?",
+    "kind": "medication",
+    "profile": null,
+    "must_include": [
+      "60000"
+    ],
+    "expected_sources": [
+      {
+        "file": "rx_asha_2025-01.docx",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "id": "q15",
+    "question": "What was Ravi's fasting glucose in February 2025?",
+    "kind": "metric",
+    "profile": null,
+    "must_include": [
+      "104"
+    ],
+    "expected_sources": [
+      {
+        "file": "lab_ravi_2025-02.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "id": "q16",
+    "question": "What is Ravi's blood group?",
+    "kind": "not_found",
+    "profile": null,
+    "must_include": [],
+    "expected_sources": []
+  },
+  {
+    "id": "q17",
+    "question": "Has Meera been vaccinated against measles?",
+    "kind": "not_found",
+    "profile": null,
+    "must_include": [],
+    "expected_sources": []
+  },
+  {
+    "id": "q18",
+    "question": "What was Asha's eye power at her last eye test?",
+    "kind": "not_found",
+    "profile": null,
+    "must_include": [],
+    "expected_sources": []
+  },
+  {
+    "id": "q19",
+    "question": "Does anyone in the family have an allergy to penicillin?",
+    "kind": "not_found",
+    "profile": null,
+    "must_include": [],
+    "expected_sources": []
+  }
+]

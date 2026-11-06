@@ -1,0 +1,29 @@
+{
+  "name": "medical-vault-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^6.39.7",
+    "next": "~15.5.26",
+    "react": "~19.2.6",
+    "react-dom": "~19.2.6",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1",
+    "recharts": "^3.10.1",
+    "react-is": "~19.2.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "~4.1.18",
+    "@types/node": "^22.19.17",
+    "@types/react": "~19.2.14",
+    "@types/react-dom": "~19.2.3",
+    "tailwindcss": "~4.1.18",
+    "typescript": "~5.9.3"
+  }
+}

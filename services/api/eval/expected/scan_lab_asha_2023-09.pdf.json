@@ -1,0 +1,33 @@
+{
+  "file": "scan_lab_asha_2023-09.pdf",
+  "mime": "application/pdf",
+  "category": "lab_scanned",
+  "profile": "Asha Verma",
+  "notes": "degradation 0.3",
+  "expect_failure": false,
+  "expected": {
+    "doc_type": "lab_report",
+    "doc_date": "2023-09-14",
+    "provider": "City Diagnostics Laboratory",
+    "patient_name": "Asha Verma",
+    "name_mismatch": false,
+    "observations": [
+      {
+        "code": "glucose_fasting",
+        "value": 117.0,
+        "unit": "mg/dL",
+        "date": "2023-09-14",
+        "page": 1
+      },
+      {
+        "code": "hba1c",
+        "value": 6.2,
+        "unit": "%",
+        "date": "2023-09-14",
+        "page": 1
+      }
+    ],
+    "medications": [],
+    "conditions": []
+  }
+}

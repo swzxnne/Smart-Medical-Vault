@@ -1,0 +1,47 @@
+{
+  "file": "rx_ravi_2025-02.docx",
+  "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "category": "prescription_docx",
+  "profile": "Ravi Verma",
+  "notes": "",
+  "expect_failure": false,
+  "expected": {
+    "doc_type": "prescription",
+    "doc_date": "2025-02-18",
+    "provider": "Sunrise Family Clinic",
+    "patient_name": "Ravi Verma",
+    "name_mismatch": false,
+    "observations": [
+      {
+        "code": "bp_systolic",
+        "value": 146.0,
+        "unit": "mmHg",
+        "date": "2025-02-18",
+        "page": 1
+      },
+      {
+        "code": "bp_diastolic",
+        "value": 90.0,
+        "unit": "mmHg",
+        "date": "2025-02-18",
+        "page": 1
+      },
+      {
+        "code": "weight",
+        "value": 84.0,
+        "unit": "kg",
+        "date": "2025-02-18",
+        "page": 1
+      }
+    ],
+    "medications": [
+      "Levothyroxine 50 mcg",
+      "Febuxostat 40 mg",
+      "Rosuvastatin 10 mg"
+    ],
+    "conditions": [
+      "Hypothyroidism",
+      "Hyperuricemia"
+    ]
+  }
+}

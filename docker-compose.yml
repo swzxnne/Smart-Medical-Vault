@@ -1,0 +1,120 @@
+x-backend-env: &backend-env
+  DATABASE_URL: postgresql+psycopg://${POSTGRES_USER:-vault}:${POSTGRES_PASSWORD:-vault}@postgres:5432/${POSTGRES_DB:-vault}
+  REDIS_URL: redis://redis:6379/0
+  CORS_ORIGINS: http://localhost:3000
+  CLERK_PUBLISHABLE_KEY: ${NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY}
+  CLERK_SECRET_KEY: ${CLERK_SECRET_KEY}
+  CLERK_AUTHORIZED_PARTIES: http://localhost:3000
+  S3_ENDPOINT_URL: http://storage:8333
+  # Presigned URLs are opened by the browser, so they must be signed for the host-visible address.
+  S3_PUBLIC_ENDPOINT_URL: http://localhost:8333
+  S3_ACCESS_KEY: ${S3_ACCESS_KEY:-vaultadmin}
+  S3_SECRET_KEY: ${S3_SECRET_KEY:-vaultsecret}
+  S3_BUCKET: ${S3_BUCKET:-medical-vault}
+  GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+  GEMINI_MODEL: ${GEMINI_MODEL:-gemini-3.5-flash}
+  GEMINI_FALLBACK_MODELS: ${GEMINI_FALLBACK_MODELS:-gemini-3-flash-preview,gemini-3.1-flash-lite}
+  GEMINI_ASK_MODEL: ${GEMINI_ASK_MODEL:-gemini-3.1-flash-lite}
+  VOYAGE_API_KEY: ${VOYAGE_API_KEY:-}
+  VOYAGE_MODEL: ${VOYAGE_MODEL:-voyage-3.5}
+
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-vault}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-vault}
+      POSTGRES_DB: ${POSTGRES_DB:-vault}
+    ports: ["5432:5432"]
+    volumes: [pgdata:/var/lib/postgresql/data]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-vault} -d ${POSTGRES_DB:-vault}"]
+      interval: 5s
+      retries: 10
+
+  redis:
+    image: redis:7-alpine
+    ports: ["6379:6379"]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      retries: 10
+
+  storage:
+    # SeaweedFS: free, S3-compatible object storage (MinIO no longer publishes images).
+    image: chrislusf/seaweedfs:latest
+    environment:
+      S3_ACCESS_KEY: ${S3_ACCESS_KEY:-vaultadmin}
+      S3_SECRET_KEY: ${S3_SECRET_KEY:-vaultsecret}
+    entrypoint: ["/bin/sh", "-c"]
+    command:
+      - >-
+        printf '{"identities":[{"name":"vault","credentials":[{"accessKey":"%s","secretKey":"%s"}],"actions":["Admin","Read","Write","List","Tagging"]}]}'
+        "$$S3_ACCESS_KEY" "$$S3_SECRET_KEY" > /tmp/s3.json &&
+        exec weed server -dir=/data -ip=storage -ip.bind=0.0.0.0
+        -master.volumeSizeLimitMB=1024 -volume.max=0
+        -s3 -s3.port=8333 -s3.config=/tmp/s3.json -s3.allowedOrigins=http://localhost:3000
+    ports: ["8333:8333"]
+    volumes: [storagedata:/data]
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q -O /dev/null http://127.0.0.1:8333/healthz || exit 1"]
+      interval: 5s
+      retries: 20
+
+  api:
+    build: ./services/api
+    command: sh -c "alembic upgrade head && uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload"
+    environment: *backend-env
+    ports: ["8000:8000"]
+    volumes: ["./services/api:/app"]
+    depends_on:
+      postgres: { condition: service_healthy }
+      redis: { condition: service_healthy }
+      storage: { condition: service_healthy }
+
+  worker:
+    image: p1-worker
+    build:
+      context: ./services/api
+      dockerfile: Dockerfile.worker
+    # Celery doesn't hot-reload: `docker compose restart worker` after changing pipeline code.
+    command: celery -A app.pipeline.celery_app worker -Q ocr,embed,llm --concurrency=2 --loglevel=INFO
+    environment: *backend-env
+    volumes:
+      - ./services/api:/app
+      - docling_models:/root/.cache  # Docling layout/table models, downloaded on first use
+    depends_on:
+      api: { condition: service_started }  # api runs the migrations
+
+  flower:
+    image: p1-worker
+    command: celery -A app.pipeline.celery_app flower --port=5555
+    environment: *backend-env
+    ports: ["5555:5555"]
+    volumes: ["./services/api:/app"]
+    depends_on: [worker]
+
+  web:
+    image: node:22-alpine
+    working_dir: /app
+    command: sh -c "npm install && npm run dev"
+    environment:
+      NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY: ${NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY}
+      CLERK_SECRET_KEY: ${CLERK_SECRET_KEY}
+      NEXT_PUBLIC_API_URL: http://localhost:8000
+      NEXT_PUBLIC_CLERK_SIGN_IN_URL: /sign-in
+      NEXT_PUBLIC_CLERK_SIGN_UP_URL: /sign-up
+      WATCHPACK_POLLING: "true"
+    ports: ["3000:3000"]
+    volumes:
+      - ./apps/web:/app
+      - web_node_modules:/app/node_modules
+      - web_next:/app/.next
+    depends_on: [api]
+
+volumes:
+  pgdata:
+  storagedata:
+  docling_models:
+  web_node_modules:
+  web_next:

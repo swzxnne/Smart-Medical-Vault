@@ -1,0 +1,33 @@
+{
+  "file": "scan_lab_meera_2023-08.jpg",
+  "mime": "image/jpeg",
+  "category": "lab_scanned",
+  "profile": "Meera Verma",
+  "notes": "degradation 0.6",
+  "expect_failure": false,
+  "expected": {
+    "doc_type": "lab_report",
+    "doc_date": "2023-08-30",
+    "provider": "Metro Lab Services",
+    "patient_name": "Meera Verma",
+    "name_mismatch": false,
+    "observations": [
+      {
+        "code": "hemoglobin",
+        "value": 11.4,
+        "unit": "g/dL",
+        "date": "2023-08-30",
+        "page": 1
+      },
+      {
+        "code": "platelets",
+        "value": 310.0,
+        "unit": "\u00d710\u00b3/\u00b5L",
+        "date": "2023-08-30",
+        "page": 1
+      }
+    ],
+    "medications": [],
+    "conditions": []
+  }
+}

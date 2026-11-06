@@ -1,0 +1,26 @@
+{
+  "file": "edge_wrong_patient.pdf",
+  "mime": "application/pdf",
+  "category": "edge",
+  "profile": "Asha Verma",
+  "notes": "someone else's report uploaded to Asha's profile: expect a name-mismatch flag",
+  "expect_failure": false,
+  "expected": {
+    "doc_type": "lab_report",
+    "doc_date": "2024-06-01",
+    "provider": "Apollo Diagnostics Centre",
+    "patient_name": "Sunita Rao",
+    "name_mismatch": true,
+    "observations": [
+      {
+        "code": "tsh",
+        "value": 2.68,
+        "unit": "\u00b5IU/mL",
+        "date": "2024-06-01",
+        "page": 1
+      }
+    ],
+    "medications": [],
+    "conditions": []
+  }
+}

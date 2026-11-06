@@ -1,0 +1,61 @@
+{
+  "file": "hard_faded_asha_2024-10.jpg",
+  "mime": "image/jpeg",
+  "category": "hard_scan",
+  "profile": "Asha Verma",
+  "notes": "hard: faded",
+  "expect_failure": false,
+  "expected": {
+    "doc_type": "lab_report",
+    "doc_date": "2024-10-07",
+    "provider": "Metro Lab Services",
+    "patient_name": "Asha Verma",
+    "name_mismatch": false,
+    "observations": [
+      {
+        "code": "glucose_fasting",
+        "value": 121.0,
+        "unit": "mg/dL",
+        "date": "2024-10-07",
+        "page": 1
+      },
+      {
+        "code": "hba1c",
+        "value": 6.5,
+        "unit": "%",
+        "date": "2024-10-07",
+        "page": 1
+      },
+      {
+        "code": "cholesterol_total",
+        "value": 213.0,
+        "unit": "mg/dL",
+        "date": "2024-10-07",
+        "page": 1
+      },
+      {
+        "code": "ldl",
+        "value": 141.0,
+        "unit": "mg/dL",
+        "date": "2024-10-07",
+        "page": 1
+      },
+      {
+        "code": "hdl",
+        "value": 43.0,
+        "unit": "mg/dL",
+        "date": "2024-10-07",
+        "page": 1
+      },
+      {
+        "code": "triglycerides",
+        "value": 171.0,
+        "unit": "mg/dL",
+        "date": "2024-10-07",
+        "page": 1
+      }
+    ],
+    "medications": [],
+    "conditions": []
+  }
+}

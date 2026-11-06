@@ -1,0 +1,120 @@
+{
+  "file": "lab_asha_2024-03.pdf",
+  "mime": "application/pdf",
+  "category": "lab_typed",
+  "profile": "Asha Verma",
+  "notes": "two pages, table continues",
+  "expect_failure": false,
+  "expected": {
+    "doc_type": "lab_report",
+    "doc_date": "2024-03-13",
+    "provider": "City Diagnostics Laboratory",
+    "patient_name": "Asha Verma",
+    "name_mismatch": false,
+    "observations": [
+      {
+        "code": "bp_systolic",
+        "value": 141.0,
+        "unit": "mmHg",
+        "date": "2024-03-13",
+        "page": 1
+      },
+      {
+        "code": "bp_diastolic",
+        "value": 89.0,
+        "unit": "mmHg",
+        "date": "2024-03-13",
+        "page": 1
+      },
+      {
+        "code": "pulse",
+        "value": 80.0,
+        "unit": "bpm",
+        "date": "2024-03-13",
+        "page": 1
+      },
+      {
+        "code": "weight",
+        "value": 67.0,
+        "unit": "kg",
+        "date": "2024-03-13",
+        "page": 1
+      },
+      {
+        "code": "glucose_fasting",
+        "value": 115.0,
+        "unit": "mg/dL",
+        "date": "2024-03-13",
+        "page": 1
+      },
+      {
+        "code": "hba1c",
+        "value": 6.4,
+        "unit": "%",
+        "date": "2024-03-13",
+        "page": 1
+      },
+      {
+        "code": "cholesterol_total",
+        "value": 211.0,
+        "unit": "mg/dL",
+        "date": "2024-03-13",
+        "page": 1
+      },
+      {
+        "code": "ldl",
+        "value": 134.0,
+        "unit": "mg/dL",
+        "date": "2024-03-13",
+        "page": 1
+      },
+      {
+        "code": "hdl",
+        "value": 45.0,
+        "unit": "mg/dL",
+        "date": "2024-03-13",
+        "page": 1
+      },
+      {
+        "code": "triglycerides",
+        "value": 164.0,
+        "unit": "mg/dL",
+        "date": "2024-03-13",
+        "page": 2
+      },
+      {
+        "code": "tsh",
+        "value": 2.72,
+        "unit": "\u00b5IU/mL",
+        "date": "2024-03-13",
+        "page": 2
+      },
+      {
+        "code": "creatinine",
+        "value": 0.79,
+        "unit": "mg/dL",
+        "date": "2024-03-13",
+        "page": 2
+      },
+      {
+        "code": "urea",
+        "value": 27.0,
+        "unit": "mg/dL",
+        "date": "2024-03-13",
+        "page": 2
+      },
+      {
+        "code": "uric_acid",
+        "value": 5.1,
+        "unit": "mg/dL",
+        "date": "2024-03-13",
+        "page": 2
+      }
+    ],
+    "medications": [],
+    "conditions": [
+      "Prediabetes",
+      "Dyslipidemia"
+    ]
+  }
+}

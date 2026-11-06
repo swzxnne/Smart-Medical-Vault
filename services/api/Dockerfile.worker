@@ -1,0 +1,11 @@
+FROM python:3.12-slim
+WORKDIR /app
+ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1
+# Tesseract is Docling's OCR engine here; libgl/libglib are needed by OpenCV.
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends tesseract-ocr tesseract-ocr-eng libgl1 libglib2.0-0 \
+    && rm -rf /var/lib/apt/lists/*
+COPY requirements.txt requirements-worker.txt requirements-dev.txt ./
+RUN pip install --no-cache-dir -r requirements-worker.txt -r requirements-dev.txt
+COPY . .
+CMD ["celery", "-A", "app.pipeline.celery_app", "worker", "-Q", "ocr,embed,llm", "--concurrency=2", "--loglevel=INFO"]

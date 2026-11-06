@@ -1,0 +1,49 @@
+{
+  "file": "lab_ravi_2024-07.pdf",
+  "mime": "application/pdf",
+  "category": "lab_typed",
+  "profile": "Ravi Verma",
+  "notes": "",
+  "expect_failure": false,
+  "expected": {
+    "doc_type": "lab_report",
+    "doc_date": "2024-07-15",
+    "provider": "Metro Lab Services",
+    "patient_name": "Ravi Verma",
+    "name_mismatch": false,
+    "observations": [
+      {
+        "code": "creatinine",
+        "value": 1.53,
+        "unit": "mg/dL",
+        "date": "2024-07-15",
+        "page": 1
+      },
+      {
+        "code": "urea",
+        "value": 44.0,
+        "unit": "mg/dL",
+        "date": "2024-07-15",
+        "page": 1
+      },
+      {
+        "code": "uric_acid",
+        "value": 7.8,
+        "unit": "mg/dL",
+        "date": "2024-07-15",
+        "page": 1
+      },
+      {
+        "code": "tsh",
+        "value": 6.74,
+        "unit": "\u00b5IU/mL",
+        "date": "2024-07-15",
+        "page": 1
+      }
+    ],
+    "medications": [],
+    "conditions": [
+      "Subclinical hypothyroidism"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "file": "rx_asha_2025-01.docx",
+  "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "category": "prescription_docx",
+  "profile": "Asha Verma",
+  "notes": "",
+  "expect_failure": false,
+  "expected": {
+    "doc_type": "prescription",
+    "doc_date": "2025-01-27",
+    "provider": "Sunrise Family Clinic",
+    "patient_name": "Asha Verma",
+    "name_mismatch": false,
+    "observations": [
+      {
+        "code": "bp_systolic",
+        "value": 137.0,
+        "unit": "mmHg",
+        "date": "2025-01-27",
+        "page": 1
+      },
+      {
+        "code": "bp_diastolic",
+        "value": 89.0,
+        "unit": "mmHg",
+        "date": "2025-01-27",
+        "page": 1
+      },
+      {
+        "code": "weight",
+        "value": 67.0,
+        "unit": "kg",
+        "date": "2025-01-27",
+        "page": 1
+      }
+    ],
+    "medications": [
+      "Metformin 500 mg",
+      "Atorvastatin 20 mg",
+      "Cholecalciferol 60000 IU"
+    ],
+    "conditions": [
+      "Prediabetes",
+      "Vitamin D deficiency"
+    ]
+  }
+}

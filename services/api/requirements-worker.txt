@@ -1,0 +1,6 @@
+-r requirements.txt
+# CPU-only PyTorch keeps the image a few GB smaller than the default CUDA build.
+--extra-index-url https://download.pytorch.org/whl/cpu
+docling>=2.55,<3
+pillow-heif>=0.18
+flower>=2.0

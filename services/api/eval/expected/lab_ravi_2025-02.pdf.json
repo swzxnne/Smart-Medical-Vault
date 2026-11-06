@@ -1,0 +1,82 @@
+{
+  "file": "lab_ravi_2025-02.pdf",
+  "mime": "application/pdf",
+  "category": "lab_typed",
+  "profile": "Ravi Verma",
+  "notes": "glucose and cholesterol in mmol/L, two pages",
+  "expect_failure": false,
+  "expected": {
+    "doc_type": "lab_report",
+    "doc_date": "2025-02-11",
+    "provider": "Apollo Diagnostics Centre",
+    "patient_name": "Ravi Verma",
+    "name_mismatch": false,
+    "observations": [
+      {
+        "code": "glucose_fasting",
+        "value": 104.49,
+        "unit": "mg/dL",
+        "date": "2025-02-11",
+        "page": 1
+      },
+      {
+        "code": "hba1c",
+        "value": 5.9,
+        "unit": "%",
+        "date": "2025-02-11",
+        "page": 1
+      },
+      {
+        "code": "cholesterol_total",
+        "value": 208.82,
+        "unit": "mg/dL",
+        "date": "2025-02-11",
+        "page": 1
+      },
+      {
+        "code": "ldl",
+        "value": 127.0,
+        "unit": "mg/dL",
+        "date": "2025-02-11",
+        "page": 1
+      },
+      {
+        "code": "hdl",
+        "value": 40.0,
+        "unit": "mg/dL",
+        "date": "2025-02-11",
+        "page": 2
+      },
+      {
+        "code": "triglycerides",
+        "value": 170.0,
+        "unit": "mg/dL",
+        "date": "2025-02-11",
+        "page": 2
+      },
+      {
+        "code": "creatinine",
+        "value": 1.6,
+        "unit": "mg/dL",
+        "date": "2025-02-11",
+        "page": 2
+      },
+      {
+        "code": "urea",
+        "value": 46.0,
+        "unit": "mg/dL",
+        "date": "2025-02-11",
+        "page": 2
+      },
+      {
+        "code": "uric_acid",
+        "value": 8.0,
+        "unit": "mg/dL",
+        "date": "2025-02-11",
+        "page": 2
+      }
+    ],
+    "medications": [],
+    "conditions": []
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "file": "scan_lab_ravi_2024-12.jpg",
+  "mime": "image/jpeg",
+  "category": "lab_scanned",
+  "profile": "Ravi Verma",
+  "notes": "degradation 0.8",
+  "expect_failure": false,
+  "expected": {
+    "doc_type": "lab_report",
+    "doc_date": "2024-12-09",
+    "provider": "Apollo Diagnostics Centre",
+    "patient_name": "Ravi Verma",
+    "name_mismatch": false,
+    "observations": [
+      {
+        "code": "tsh",
+        "value": 7.06,
+        "unit": "\u00b5IU/mL",
+        "date": "2024-12-09",
+        "page": 1
+      },
+      {
+        "code": "cholesterol_total",
+        "value": 214.0,
+        "unit": "mg/dL",
+        "date": "2024-12-09",
+        "page": 1
+      },
+      {
+        "code": "ldl",
+        "value": 132.0,
+        "unit": "mg/dL",
+        "date": "2024-12-09",
+        "page": 1
+      },
+      {
+        "code": "hdl",
+        "value": 41.0,
+        "unit": "mg/dL",
+        "date": "2024-12-09",
+        "page": 1
+      },
+      {
+        "code": "triglycerides",
+        "value": 172.0,
+        "unit": "mg/dL",
+        "date": "2024-12-09",
+        "page": 1
+      }
+    ],
+    "medications": [],
+    "conditions": []
+  }
+}

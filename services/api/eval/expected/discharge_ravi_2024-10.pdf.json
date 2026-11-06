@@ -1,0 +1,75 @@
+{
+  "file": "discharge_ravi_2024-10.pdf",
+  "mime": "application/pdf",
+  "category": "discharge_summary",
+  "profile": "Ravi Verma",
+  "notes": "values in prose; same metric on both pages (admission vs discharge)",
+  "expect_failure": false,
+  "expected": {
+    "doc_type": "discharge_summary",
+    "doc_date": "2024-10-03",
+    "provider": "Green Valley Hospital",
+    "patient_name": "Ravi Verma",
+    "name_mismatch": false,
+    "observations": [
+      {
+        "code": "bp_systolic",
+        "value": 145.0,
+        "unit": "mmHg",
+        "date": "2024-10-03",
+        "page": 1
+      },
+      {
+        "code": "bp_diastolic",
+        "value": 88.0,
+        "unit": "mmHg",
+        "date": "2024-10-03",
+        "page": 1
+      },
+      {
+        "code": "pulse",
+        "value": 79.0,
+        "unit": "bpm",
+        "date": "2024-10-03",
+        "page": 1
+      },
+      {
+        "code": "glucose_random",
+        "value": 140.0,
+        "unit": "mg/dL",
+        "date": "2024-10-03",
+        "page": 1
+      },
+      {
+        "code": "creatinine",
+        "value": 2.46,
+        "unit": "mg/dL",
+        "date": "2024-10-03",
+        "page": 1
+      },
+      {
+        "code": "bp_systolic",
+        "value": 145.0,
+        "unit": "mmHg",
+        "date": "2024-10-03",
+        "page": 2
+      },
+      {
+        "code": "bp_diastolic",
+        "value": 90.0,
+        "unit": "mmHg",
+        "date": "2024-10-03",
+        "page": 2
+      }
+    ],
+    "medications": [
+      "Ondansetron 4 mg",
+      "Oral rehydration salts",
+      "Levothyroxine 25 mcg"
+    ],
+    "conditions": [
+      "Acute gastroenteritis",
+      "Pre-renal acute kidney injury"
+    ]
+  }
+}

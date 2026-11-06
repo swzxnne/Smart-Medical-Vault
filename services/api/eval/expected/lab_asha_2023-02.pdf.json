@@ -1,0 +1,89 @@
+{
+  "file": "lab_asha_2023-02.pdf",
+  "mime": "application/pdf",
+  "category": "lab_typed",
+  "profile": "Asha Verma",
+  "notes": "",
+  "expect_failure": false,
+  "expected": {
+    "doc_type": "lab_report",
+    "doc_date": "2023-02-08",
+    "provider": "City Diagnostics Laboratory",
+    "patient_name": "Asha Verma",
+    "name_mismatch": false,
+    "observations": [
+      {
+        "code": "bp_systolic",
+        "value": 148.0,
+        "unit": "mmHg",
+        "date": "2023-02-08",
+        "page": 1
+      },
+      {
+        "code": "bp_diastolic",
+        "value": 92.0,
+        "unit": "mmHg",
+        "date": "2023-02-08",
+        "page": 1
+      },
+      {
+        "code": "pulse",
+        "value": 84.0,
+        "unit": "bpm",
+        "date": "2023-02-08",
+        "page": 1
+      },
+      {
+        "code": "weight",
+        "value": 70.0,
+        "unit": "kg",
+        "date": "2023-02-08",
+        "page": 1
+      },
+      {
+        "code": "glucose_fasting",
+        "value": 111.0,
+        "unit": "mg/dL",
+        "date": "2023-02-08",
+        "page": 1
+      },
+      {
+        "code": "hba1c",
+        "value": 6.1,
+        "unit": "%",
+        "date": "2023-02-08",
+        "page": 1
+      },
+      {
+        "code": "cholesterol_total",
+        "value": 211.0,
+        "unit": "mg/dL",
+        "date": "2023-02-08",
+        "page": 1
+      },
+      {
+        "code": "ldl",
+        "value": 129.0,
+        "unit": "mg/dL",
+        "date": "2023-02-08",
+        "page": 1
+      },
+      {
+        "code": "hdl",
+        "value": 43.0,
+        "unit": "mg/dL",
+        "date": "2023-02-08",
+        "page": 1
+      },
+      {
+        "code": "triglycerides",
+        "value": 163.0,
+        "unit": "mg/dL",
+        "date": "2023-02-08",
+        "page": 1
+      }
+    ],
+    "medications": [],
+    "conditions": []
+  }
+}

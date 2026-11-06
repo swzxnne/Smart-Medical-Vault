@@ -1,0 +1,60 @@
+# --- Secrets / sensitive data ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+id_rsa*
+credentials*.json
+service-account*.json
+secrets/
+
+# Local data, dumps, uploaded medical records
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.sql.gz
+backups/
+uploads/
+minio-data/
+pgdata/
+*.log
+
+# LLM / embedding caches (may contain document text) and latest eval runs
+services/api/eval/.cache/
+services/api/eval/results/*-latest.json
+
+# --- Not part of this repo ---
+blog/
+PLAN.md
+
+# Generated documents (system design .docx and its sources)
+docs/
+
+# --- Python ---
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.coverage
+htmlcov/
+
+# --- Node / Next.js ---
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+
+# --- OS / editor ---
+.DS_Store
+.idea/
+.vscode/
+
+# Generated sample documents (regenerate with scripts/make_samples.py)
+samples/

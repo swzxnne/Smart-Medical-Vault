@@ -1,0 +1,75 @@
+{
+  "file": "lab_ravi_2023-06.pdf",
+  "mime": "application/pdf",
+  "category": "lab_typed",
+  "profile": "Ravi Verma",
+  "notes": "creatinine in umol/L",
+  "expect_failure": false,
+  "expected": {
+    "doc_type": "lab_report",
+    "doc_date": "2023-06-02",
+    "provider": "Metro Lab Services",
+    "patient_name": "Ravi Verma",
+    "name_mismatch": false,
+    "observations": [
+      {
+        "code": "creatinine",
+        "value": 1.34,
+        "unit": "mg/dL",
+        "date": "2023-06-02",
+        "page": 1
+      },
+      {
+        "code": "urea",
+        "value": 39.0,
+        "unit": "mg/dL",
+        "date": "2023-06-02",
+        "page": 1
+      },
+      {
+        "code": "uric_acid",
+        "value": 7.7,
+        "unit": "mg/dL",
+        "date": "2023-06-02",
+        "page": 1
+      },
+      {
+        "code": "tsh",
+        "value": 6.03,
+        "unit": "\u00b5IU/mL",
+        "date": "2023-06-02",
+        "page": 1
+      },
+      {
+        "code": "cholesterol_total",
+        "value": 221.0,
+        "unit": "mg/dL",
+        "date": "2023-06-02",
+        "page": 1
+      },
+      {
+        "code": "ldl",
+        "value": 147.0,
+        "unit": "mg/dL",
+        "date": "2023-06-02",
+        "page": 1
+      },
+      {
+        "code": "hdl",
+        "value": 38.0,
+        "unit": "mg/dL",
+        "date": "2023-06-02",
+        "page": 1
+      },
+      {
+        "code": "triglycerides",
+        "value": 190.0,
+        "unit": "mg/dL",
+        "date": "2023-06-02",
+        "page": 1
+      }
+    ],
+    "medications": [],
+    "conditions": []
+  }
+}

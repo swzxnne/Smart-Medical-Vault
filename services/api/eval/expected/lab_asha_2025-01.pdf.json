@@ -1,0 +1,47 @@
+{
+  "file": "lab_asha_2025-01.pdf",
+  "mime": "application/pdf",
+  "category": "lab_typed",
+  "profile": "Asha Verma",
+  "notes": "",
+  "expect_failure": false,
+  "expected": {
+    "doc_type": "lab_report",
+    "doc_date": "2025-01-20",
+    "provider": "Lifeline Pathology",
+    "patient_name": "Asha Verma",
+    "name_mismatch": false,
+    "observations": [
+      {
+        "code": "glucose_fasting",
+        "value": 117.0,
+        "unit": "mg/dL",
+        "date": "2025-01-20",
+        "page": 1
+      },
+      {
+        "code": "hba1c",
+        "value": 6.3,
+        "unit": "%",
+        "date": "2025-01-20",
+        "page": 1
+      },
+      {
+        "code": "vitamin_d",
+        "value": 26.0,
+        "unit": "ng/mL",
+        "date": "2025-01-20",
+        "page": 1
+      },
+      {
+        "code": "vitamin_b12",
+        "value": 350.0,
+        "unit": "pg/mL",
+        "date": "2025-01-20",
+        "page": 1
+      }
+    ],
+    "medications": [],
+    "conditions": []
+  }
+}

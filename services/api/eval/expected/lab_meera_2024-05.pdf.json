@@ -1,0 +1,50 @@
+{
+  "file": "lab_meera_2024-05.pdf",
+  "mime": "application/pdf",
+  "category": "lab_typed",
+  "profile": "Meera Verma",
+  "notes": "hemoglobin in g/L",
+  "expect_failure": false,
+  "expected": {
+    "doc_type": "lab_report",
+    "doc_date": "2024-05-04",
+    "provider": "Lifeline Pathology",
+    "patient_name": "Meera Verma",
+    "name_mismatch": false,
+    "observations": [
+      {
+        "code": "hemoglobin",
+        "value": 11.8,
+        "unit": "g/dL",
+        "date": "2024-05-04",
+        "page": 1
+      },
+      {
+        "code": "platelets",
+        "value": 310.0,
+        "unit": "\u00d710\u00b3/\u00b5L",
+        "date": "2024-05-04",
+        "page": 1
+      },
+      {
+        "code": "vitamin_d",
+        "value": 22.1,
+        "unit": "ng/mL",
+        "date": "2024-05-04",
+        "page": 1
+      },
+      {
+        "code": "vitamin_b12",
+        "value": 433.0,
+        "unit": "pg/mL",
+        "date": "2024-05-04",
+        "page": 1
+      }
+    ],
+    "medications": [],
+    "conditions": [
+      "Iron deficiency anaemia",
+      "Vitamin D deficiency"
+    ]
+  }
+}

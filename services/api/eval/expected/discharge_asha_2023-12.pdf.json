@@ -1,0 +1,66 @@
+{
+  "file": "discharge_asha_2023-12.pdf",
+  "mime": "application/pdf",
+  "category": "discharge_summary",
+  "profile": "Asha Verma",
+  "notes": "values in prose; same metric on both pages (admission vs discharge)",
+  "expect_failure": false,
+  "expected": {
+    "doc_type": "discharge_summary",
+    "doc_date": "2023-12-05",
+    "provider": "Green Valley Hospital",
+    "patient_name": "Asha Verma",
+    "name_mismatch": false,
+    "observations": [
+      {
+        "code": "bp_systolic",
+        "value": 140.0,
+        "unit": "mmHg",
+        "date": "2023-12-05",
+        "page": 1
+      },
+      {
+        "code": "bp_diastolic",
+        "value": 91.0,
+        "unit": "mmHg",
+        "date": "2023-12-05",
+        "page": 1
+      },
+      {
+        "code": "pulse",
+        "value": 78.0,
+        "unit": "bpm",
+        "date": "2023-12-05",
+        "page": 1
+      },
+      {
+        "code": "glucose_random",
+        "value": 158.0,
+        "unit": "mg/dL",
+        "date": "2023-12-05",
+        "page": 1
+      },
+      {
+        "code": "bp_systolic",
+        "value": 140.0,
+        "unit": "mmHg",
+        "date": "2023-12-05",
+        "page": 2
+      },
+      {
+        "code": "bp_diastolic",
+        "value": 90.0,
+        "unit": "mmHg",
+        "date": "2023-12-05",
+        "page": 2
+      }
+    ],
+    "medications": [
+      "Amoxicillin-clavulanate 625 mg",
+      "Paracetamol 650 mg"
+    ],
+    "conditions": [
+      "Community acquired pneumonia"
+    ]
+  }
+}

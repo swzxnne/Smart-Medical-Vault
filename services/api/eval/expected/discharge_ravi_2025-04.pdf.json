@@ -1,0 +1,66 @@
+{
+  "file": "discharge_ravi_2025-04.pdf",
+  "mime": "application/pdf",
+  "category": "discharge_summary",
+  "profile": "Ravi Verma",
+  "notes": "values in prose; same metric on both pages (admission vs discharge)",
+  "expect_failure": false,
+  "expected": {
+    "doc_type": "discharge_summary",
+    "doc_date": "2025-04-02",
+    "provider": "Green Valley Hospital",
+    "patient_name": "Ravi Verma",
+    "name_mismatch": false,
+    "observations": [
+      {
+        "code": "bp_systolic",
+        "value": 146.0,
+        "unit": "mmHg",
+        "date": "2025-04-02",
+        "page": 1
+      },
+      {
+        "code": "bp_diastolic",
+        "value": 90.0,
+        "unit": "mmHg",
+        "date": "2025-04-02",
+        "page": 1
+      },
+      {
+        "code": "pulse",
+        "value": 77.0,
+        "unit": "bpm",
+        "date": "2025-04-02",
+        "page": 1
+      },
+      {
+        "code": "glucose_random",
+        "value": 141.0,
+        "unit": "mg/dL",
+        "date": "2025-04-02",
+        "page": 1
+      },
+      {
+        "code": "bp_systolic",
+        "value": 145.0,
+        "unit": "mmHg",
+        "date": "2025-04-02",
+        "page": 2
+      },
+      {
+        "code": "bp_diastolic",
+        "value": 90.0,
+        "unit": "mmHg",
+        "date": "2025-04-02",
+        "page": 2
+      }
+    ],
+    "medications": [
+      "Amlodipine 5 mg",
+      "Telmisartan 40 mg"
+    ],
+    "conditions": [
+      "Hypertensive urgency"
+    ]
+  }
+}

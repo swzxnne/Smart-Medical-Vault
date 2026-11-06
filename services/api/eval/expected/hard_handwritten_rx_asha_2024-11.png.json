@@ -1,0 +1,36 @@
+{
+  "file": "hard_handwritten_rx_asha_2024-11.png",
+  "mime": "image/png",
+  "category": "hard_scan",
+  "profile": "Asha Verma",
+  "notes": "hard: messy handwriting",
+  "expect_failure": false,
+  "expected": {
+    "doc_type": "prescription",
+    "doc_date": "2024-11-12",
+    "provider": "Sunrise Family Clinic",
+    "patient_name": "Asha Verma",
+    "name_mismatch": false,
+    "observations": [
+      {
+        "code": "bp_systolic",
+        "value": 137.0,
+        "unit": "mmHg",
+        "date": "2024-11-12",
+        "page": 1
+      },
+      {
+        "code": "bp_diastolic",
+        "value": 88.0,
+        "unit": "mmHg",
+        "date": "2024-11-12",
+        "page": 1
+      }
+    ],
+    "medications": [
+      "Metformin 500 mg",
+      "Telmisartan 40 mg"
+    ],
+    "conditions": []
+  }
+}

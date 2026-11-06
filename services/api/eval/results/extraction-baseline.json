@@ -1,0 +1,1743 @@
+{
+  "summary": {
+    "overall": {
+      "documents": 34,
+      "values_expected": 156,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "page_accuracy": 1.0,
+      "wrong_value": 0,
+      "wrong_date": 0,
+      "flagged": 22,
+      "flagged_wrong": 0,
+      "doc_type": 0.9696969696969697,
+      "doc_date": 1.0,
+      "provider": 0.9696969696969697,
+      "patient": 1.0,
+      "medications_recall": 1.0,
+      "conditions_recall": 1.0,
+      "unreadable_refused": 1.0,
+      "wrongly_refused": 0,
+      "mismatch_flag": 1.0
+    },
+    "by_category": {
+      "discharge_summary": {
+        "documents": 4,
+        "values_expected": 26,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "page_accuracy": 1.0,
+        "wrong_value": 0,
+        "wrong_date": 0,
+        "flagged": 0,
+        "flagged_wrong": 0,
+        "doc_type": 1.0,
+        "doc_date": 1.0,
+        "provider": 1.0,
+        "patient": 1.0,
+        "medications_recall": 1.0,
+        "conditions_recall": 1.0,
+        "unreadable_refused": null,
+        "wrongly_refused": 0,
+        "mismatch_flag": 1.0
+      },
+      "edge": {
+        "documents": 2,
+        "values_expected": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "page_accuracy": 1.0,
+        "wrong_value": 0,
+        "wrong_date": 0,
+        "flagged": 0,
+        "flagged_wrong": 0,
+        "doc_type": 1.0,
+        "doc_date": 1.0,
+        "provider": 0.0,
+        "patient": 1.0,
+        "medications_recall": null,
+        "conditions_recall": null,
+        "unreadable_refused": 1.0,
+        "wrongly_refused": 0,
+        "mismatch_flag": 1.0
+      },
+      "handwritten_rx": {
+        "documents": 2,
+        "values_expected": 3,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "page_accuracy": 1.0,
+        "wrong_value": 0,
+        "wrong_date": 0,
+        "flagged": 2,
+        "flagged_wrong": 0,
+        "doc_type": 1.0,
+        "doc_date": 1.0,
+        "provider": 1.0,
+        "patient": 1.0,
+        "medications_recall": 1.0,
+        "conditions_recall": null,
+        "unreadable_refused": null,
+        "wrongly_refused": 0,
+        "mismatch_flag": 1.0
+      },
+      "hard_scan": {
+        "documents": 4,
+        "values_expected": 16,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "page_accuracy": 1.0,
+        "wrong_value": 0,
+        "wrong_date": 0,
+        "flagged": 16,
+        "flagged_wrong": 0,
+        "doc_type": 1.0,
+        "doc_date": 1.0,
+        "provider": 1.0,
+        "patient": 1.0,
+        "medications_recall": 1.0,
+        "conditions_recall": null,
+        "unreadable_refused": null,
+        "wrongly_refused": 0,
+        "mismatch_flag": 1.0
+      },
+      "lab_typed": {
+        "documents": 7,
+        "values_expected": 53,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "page_accuracy": 1.0,
+        "wrong_value": 0,
+        "wrong_date": 0,
+        "flagged": 0,
+        "flagged_wrong": 0,
+        "doc_type": 1.0,
+        "doc_date": 1.0,
+        "provider": 1.0,
+        "patient": 1.0,
+        "medications_recall": null,
+        "conditions_recall": 1.0,
+        "unreadable_refused": null,
+        "wrongly_refused": 0,
+        "mismatch_flag": 1.0
+      },
+      "opd_card": {
+        "documents": 4,
+        "values_expected": 20,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "page_accuracy": 1.0,
+        "wrong_value": 0,
+        "wrong_date": 0,
+        "flagged": 0,
+        "flagged_wrong": 0,
+        "doc_type": 1.0,
+        "doc_date": 1.0,
+        "provider": 1.0,
+        "patient": 1.0,
+        "medications_recall": null,
+        "conditions_recall": 1.0,
+        "unreadable_refused": null,
+        "wrongly_refused": 0,
+        "mismatch_flag": 1.0
+      },
+      "prescription_docx": {
+        "documents": 5,
+        "values_expected": 15,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "page_accuracy": 1.0,
+        "wrong_value": 0,
+        "wrong_date": 0,
+        "flagged": 0,
+        "flagged_wrong": 0,
+        "doc_type": 0.8,
+        "doc_date": 1.0,
+        "provider": 1.0,
+        "patient": 1.0,
+        "medications_recall": 1.0,
+        "conditions_recall": 1.0,
+        "unreadable_refused": null,
+        "wrongly_refused": 0,
+        "mismatch_flag": 1.0
+      },
+      "lab_scanned": {
+        "documents": 6,
+        "values_expected": 22,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "page_accuracy": 1.0,
+        "wrong_value": 0,
+        "wrong_date": 0,
+        "flagged": 4,
+        "flagged_wrong": 0,
+        "doc_type": 1.0,
+        "doc_date": 1.0,
+        "provider": 1.0,
+        "patient": 1.0,
+        "medications_recall": null,
+        "conditions_recall": null,
+        "unreadable_refused": null,
+        "wrongly_refused": 0,
+        "mismatch_flag": 1.0
+      }
+    }
+  },
+  "documents": [
+    {
+      "file": "discharge_asha_2023-12.pdf",
+      "category": "discharge_summary",
+      "parse_seconds": 4.4,
+      "ocr_confidence": null,
+      "engines": [
+        "docling"
+      ],
+      "model": "gemini-3-flash-preview",
+      "doc_type_ok": true,
+      "doc_date_ok": true,
+      "provider_ok": true,
+      "patient_ok": true,
+      "mismatch_flag_ok": true,
+      "got": {
+        "doc_type": "discharge_summary",
+        "doc_date": "2023-12-05",
+        "provider": "Green Valley Hospital",
+        "patient": "Asha Verma"
+      },
+      "obs": {
+        "expected": 6,
+        "extracted": 6,
+        "matched": 6,
+        "page_correct": 6,
+        "wrong_value": [],
+        "wrong_date": [],
+        "missed": [],
+        "extra": []
+      },
+      "dropped_by_grounding": 0,
+      "flagged": 0,
+      "flagged_wrong": 0,
+      "flagged_notes": [],
+      "rejected_by_normalization": [],
+      "meds": {
+        "matched": 2,
+        "expected": 2,
+        "extracted": 2
+      },
+      "conds": {
+        "matched": 1,
+        "expected": 1,
+        "extracted": 1
+      }
+    },
+    {
+      "file": "discharge_meera_2024-09.pdf",
+      "category": "discharge_summary",
+      "parse_seconds": 1.0,
+      "ocr_confidence": null,
+      "engines": [
+        "docling"
+      ],
+      "model": "gemini-3-flash-preview",
+      "doc_type_ok": true,
+      "doc_date_ok": true,
+      "provider_ok": true,
+      "patient_ok": true,
+      "mismatch_flag_ok": true,
+      "got": {
+        "doc_type": "discharge_summary",
+        "doc_date": "2024-09-12",
+        "provider": "Green Valley Hospital",
+        "patient": "Meera Verma"
+      },
+      "obs": {
+        "expected": 7,
+        "extracted": 7,
+        "matched": 7,
+        "page_correct": 7,
+        "wrong_value": [],
+        "wrong_date": [],
+        "missed": [],
+        "extra": []
+      },
+      "dropped_by_grounding": 0,
+      "flagged": 0,
+      "flagged_wrong": 0,
+      "flagged_notes": [],
+      "rejected_by_normalization": [],
+      "meds": {
+        "matched": 1,
+        "expected": 1,
+        "extracted": 1
+      },
+      "conds": {
+        "matched": 1,
+        "expected": 1,
+        "extracted": 1
+      }
+    },
+    {
+      "file": "discharge_ravi_2024-10.pdf",
+      "category": "discharge_summary",
+      "parse_seconds": 1.0,
+      "ocr_confidence": null,
+      "engines": [
+        "docling"
+      ],
+      "model": "gemini-3-flash-preview",
+      "doc_type_ok": true,
+      "doc_date_ok": true,
+      "provider_ok": true,
+      "patient_ok": true,
+      "mismatch_flag_ok": true,
+      "got": {
+        "doc_type": "discharge_summary",
+        "doc_date": "2024-10-03",
+        "provider": "Green Valley Hospital",
+        "patient": "Ravi Verma"
+      },
+      "obs": {
+        "expected": 7,
+        "extracted": 7,
+        "matched": 7,
+        "page_correct": 7,
+        "wrong_value": [],
+        "wrong_date": [],
+        "missed": [],
+        "extra": []
+      },
+      "dropped_by_grounding": 0,
+      "flagged": 0,
+      "flagged_wrong": 0,
+      "flagged_notes": [],
+      "rejected_by_normalization": [],
+      "meds": {
+        "matched": 3,
+        "expected": 3,
+        "extracted": 3
+      },
+      "conds": {
+        "matched": 2,
+        "expected": 2,
+        "extracted": 2
+      }
+    },
+    {
+      "file": "discharge_ravi_2025-04.pdf",
+      "category": "discharge_summary",
+      "parse_seconds": 1.0,
+      "ocr_confidence": null,
+      "engines": [
+        "docling"
+      ],
+      "model": "gemini-3.1-flash-lite",
+      "doc_type_ok": true,
+      "doc_date_ok": true,
+      "provider_ok": true,
+      "patient_ok": true,
+      "mismatch_flag_ok": true,
+      "got": {
+        "doc_type": "discharge_summary",
+        "doc_date": "2025-04-02",
+        "provider": "Green Valley Hospital",
+        "patient": "Ravi Verma"
+      },
+      "obs": {
+        "expected": 6,
+        "extracted": 6,
+        "matched": 6,
+        "page_correct": 6,
+        "wrong_value": [],
+        "wrong_date": [],
+        "missed": [],
+        "extra": []
+      },
+      "dropped_by_grounding": 0,
+      "flagged": 0,
+      "flagged_wrong": 0,
+      "flagged_notes": [],
+      "rejected_by_normalization": [],
+      "meds": {
+        "matched": 2,
+        "expected": 2,
+        "extracted": 2
+      },
+      "conds": {
+        "matched": 1,
+        "expected": 1,
+        "extracted": 1
+      }
+    },
+    {
+      "file": "edge_blank_scan.jpg",
+      "category": "edge",
+      "parse_seconds": 0.1,
+      "ocr_confidence": null,
+      "engines": [
+        "tesseract"
+      ],
+      "expected_failure": true,
+      "refused": true,
+      "ok": true
+    },
+    {
+      "file": "edge_wrong_patient.pdf",
+      "category": "edge",
+      "parse_seconds": 1.0,
+      "ocr_confidence": null,
+      "engines": [
+        "docling"
+      ],
+      "model": "gemini-3-flash-preview",
+      "doc_type_ok": true,
+      "doc_date_ok": true,
+      "provider_ok": false,
+      "patient_ok": true,
+      "mismatch_flag_ok": true,
+      "got": {
+        "doc_type": "lab_report",
+        "doc_date": "2024-06-01",
+        "provider": null,
+        "patient": "Sunita Rao"
+      },
+      "obs": {
+        "expected": 1,
+        "extracted": 1,
+        "matched": 1,
+        "page_correct": 1,
+        "wrong_value": [],
+        "wrong_date": [],
+        "missed": [],
+        "extra": []
+      },
+      "dropped_by_grounding": 0,
+      "flagged": 0,
+      "flagged_wrong": 0,
+      "flagged_notes": [],
+      "rejected_by_normalization": [],
+      "meds": {
+        "matched": 0,
+        "expected": 0,
+        "extracted": 0
+      },
+      "conds": {
+        "matched": 0,
+        "expected": 0,
+        "extracted": 0
+      }
+    },
+    {
+      "file": "handwritten_rx_meera_2024-09.png",
+      "category": "handwritten_rx",
+      "parse_seconds": 0.2,
+      "ocr_confidence": 0.784,
+      "engines": [
+        "tesseract"
+      ],
+      "model": "gemini-3-flash-preview",
+      "doc_type_ok": true,
+      "doc_date_ok": true,
+      "provider_ok": true,
+      "patient_ok": true,
+      "mismatch_flag_ok": true,
+      "got": {
+        "doc_type": "prescription",
+        "doc_date": "2024-09-20",
+        "provider": "St. Anne's Children's Clinic",
+        "patient": "Meera Verma"
+      },
+      "obs": {
+        "expected": 1,
+        "extracted": 1,
+        "matched": 1,
+        "page_correct": 1,
+        "wrong_value": [],
+        "wrong_date": [],
+        "missed": [],
+        "extra": []
+      },
+      "dropped_by_grounding": 0,
+      "flagged": 0,
+      "flagged_wrong": 0,
+      "flagged_notes": [],
+      "rejected_by_normalization": [],
+      "meds": {
+        "matched": 1,
+        "expected": 1,
+        "extracted": 1
+      },
+      "conds": {
+        "matched": 0,
+        "expected": 0,
+        "extracted": 0
+      }
+    },
+    {
+      "file": "handwritten_rx_ravi_2024-03.png",
+      "category": "handwritten_rx",
+      "parse_seconds": 0.2,
+      "ocr_confidence": 0.726,
+      "engines": [
+        "gemini-vision"
+      ],
+      "model": "gemini-3.1-flash-lite",
+      "doc_type_ok": true,
+      "doc_date_ok": true,
+      "provider_ok": true,
+      "patient_ok": true,
+      "mismatch_flag_ok": true,
+      "got": {
+        "doc_type": "prescription",
+        "doc_date": "2024-03-02",
+        "provider": "Care Point Clinic",
+        "patient": "Ravi Verma"
+      },
+      "obs": {
+        "expected": 2,
+        "extracted": 2,
+        "matched": 2,
+        "page_correct": 2,
+        "wrong_value": [],
+        "wrong_date": [],
+        "missed": [],
+        "extra": []
+      },
+      "dropped_by_grounding": 0,
+      "flagged": 2,
+      "flagged_wrong": 0,
+      "flagged_notes": [
+        "Read by AI from a poor-quality scan"
+      ],
+      "rejected_by_normalization": [],
+      "meds": {
+        "matched": 2,
+        "expected": 2,
+        "extracted": 2
+      },
+      "conds": {
+        "matched": 0,
+        "expected": 0,
+        "extracted": 0
+      }
+    },
+    {
+      "file": "hard_angle_meera_2024-02.jpg",
+      "category": "hard_scan",
+      "parse_seconds": 0.3,
+      "ocr_confidence": 0.655,
+      "engines": [
+        "gemini-vision"
+      ],
+      "model": "gemini-3.1-flash-lite",
+      "doc_type_ok": true,
+      "doc_date_ok": true,
+      "provider_ok": true,
+      "patient_ok": true,
+      "mismatch_flag_ok": true,
+      "got": {
+        "doc_type": "lab_report",
+        "doc_date": "2024-02-19",
+        "provider": "Metro Lab Services",
+        "patient": "Meera Verma"
+      },
+      "obs": {
+        "expected": 4,
+        "extracted": 4,
+        "matched": 4,
+        "page_correct": 4,
+        "wrong_value": [],
+        "wrong_date": [],
+        "missed": [],
+        "extra": []
+      },
+      "dropped_by_grounding": 0,
+      "flagged": 4,
+      "flagged_wrong": 0,
+      "flagged_notes": [
+        "Read by AI from a poor-quality scan"
+      ],
+      "rejected_by_normalization": [],
+      "meds": {
+        "matched": 0,
+        "expected": 0,
+        "extracted": 0
+      },
+      "conds": {
+        "matched": 0,
+        "expected": 0,
+        "extracted": 0
+      }
+    },
+    {
+      "file": "hard_blur_ravi_2024-04.jpg",
+      "category": "hard_scan",
+      "parse_seconds": 0.3,
+      "ocr_confidence": null,
+      "engines": [
+        "gemini-vision"
+      ],
+      "model": "gemini-3.1-flash-lite",
+      "doc_type_ok": true,
+      "doc_date_ok": true,
+      "provider_ok": true,
+      "patient_ok": true,
+      "mismatch_flag_ok": true,
+      "got": {
+        "doc_type": "lab_report",
+        "doc_date": "2024-04-16",
+        "provider": "Metro Lab Services",
+        "patient": "Ravi Verma"
+      },
+      "obs": {
+        "expected": 4,
+        "extracted": 4,
+        "matched": 4,
+        "page_correct": 4,
+        "wrong_value": [],
+        "wrong_date": [],
+        "missed": [],
+        "extra": []
+      },
+      "dropped_by_grounding": 0,
+      "flagged": 4,
+      "flagged_wrong": 0,
+      "flagged_notes": [
+        "Read by AI from a poor-quality scan"
+      ],
+      "rejected_by_normalization": [],
+      "meds": {
+        "matched": 0,
+        "expected": 0,
+        "extracted": 0
+      },
+      "conds": {
+        "matched": 0,
+        "expected": 0,
+        "extracted": 0
+      }
+    },
+    {
+      "file": "hard_faded_asha_2024-10.jpg",
+      "category": "hard_scan",
+      "parse_seconds": 0.3,
+      "ocr_confidence": null,
+      "engines": [
+        "gemini-vision"
+      ],
+      "model": "gemini-3.1-flash-lite",
+      "doc_type_ok": true,
+      "doc_date_ok": true,
+      "provider_ok": true,
+      "patient_ok": true,
+      "mismatch_flag_ok": true,
+      "got": {
+        "doc_type": "lab_report",
+        "doc_date": "2024-10-07",
+        "provider": "Metro Lab Services",
+        "patient": "Asha Verma"
+      },
+      "obs": {
+        "expected": 6,
+        "extracted": 6,
+        "matched": 6,
+        "page_correct": 6,
+        "wrong_value": [],
+        "wrong_date": [],
+        "missed": [],
+        "extra": []
+      },
+      "dropped_by_grounding": 0,
+      "flagged": 6,
+      "flagged_wrong": 0,
+      "flagged_notes": [
+        "Read by AI from a poor-quality scan"
+      ],
+      "rejected_by_normalization": [],
+      "meds": {
+        "matched": 0,
+        "expected": 0,
+        "extracted": 0
+      },
+      "conds": {
+        "matched": 0,
+        "expected": 0,
+        "extracted": 0
+      }
+    },
+    {
+      "file": "hard_handwritten_rx_asha_2024-11.png",
+      "category": "hard_scan",
+      "parse_seconds": 0.2,
+      "ocr_confidence": 0.435,
+      "engines": [
+        "gemini-vision"
+      ],
+      "model": "gemini-3.1-flash-lite",
+      "doc_type_ok": true,
+      "doc_date_ok": true,
+      "provider_ok": true,
+      "patient_ok": true,
+      "mismatch_flag_ok": true,
+      "got": {
+        "doc_type": "prescription",
+        "doc_date": "2024-11-12",
+        "provider": "Sunrise Family Clinic",
+        "patient": "Asha Verma"
+      },
+      "obs": {
+        "expected": 2,
+        "extracted": 2,
+        "matched": 2,
+        "page_correct": 2,
+        "wrong_value": [],
+        "wrong_date": [],
+        "missed": [],
+        "extra": []
+      },
+      "dropped_by_grounding": 0,
+      "flagged": 2,
+      "flagged_wrong": 0,
+      "flagged_notes": [
+        "Read by AI from a poor-quality scan"
+      ],
+      "rejected_by_normalization": [],
+      "meds": {
+        "matched": 2,
+        "expected": 2,
+        "extracted": 2
+      },
+      "conds": {
+        "matched": 0,
+        "expected": 0,
+        "extracted": 0
+      }
+    },
+    {
+      "file": "lab_asha_2023-02.pdf",
+      "category": "lab_typed",
+      "parse_seconds": 1.9,
+      "ocr_confidence": null,
+      "engines": [
+        "docling"
+      ],
+      "model": "gemini-3-flash-preview",
+      "doc_type_ok": true,
+      "doc_date_ok": true,
+      "provider_ok": true,
+      "patient_ok": true,
+      "mismatch_flag_ok": true,
+      "got": {
+        "doc_type": "lab_report",
+        "doc_date": "2023-02-08",
+        "provider": "City Diagnostics Laboratory",
+        "patient": "Asha Verma"
+      },
+      "obs": {
+        "expected": 10,
+        "extracted": 10,
+        "matched": 10,
+        "page_correct": 10,
+        "wrong_value": [],
+        "wrong_date": [],
+        "missed": [],
+        "extra": []
+      },
+      "dropped_by_grounding": 0,
+      "flagged": 0,
+      "flagged_wrong": 0,
+      "flagged_notes": [],
+      "rejected_by_normalization": [],
+      "meds": {
+        "matched": 0,
+        "expected": 0,
+        "extracted": 0
+      },
+      "conds": {
+        "matched": 0,
+        "expected": 0,
+        "extracted": 0
+      }
+    },
+    {
+      "file": "lab_asha_2024-03.pdf",
+      "category": "lab_typed",
+      "parse_seconds": 3.2,
+      "ocr_confidence": null,
+      "engines": [
+        "docling"
+      ],
+      "model": "gemini-3-flash-preview",
+      "doc_type_ok": true,
+      "doc_date_ok": true,
+      "provider_ok": true,
+      "patient_ok": true,
+      "mismatch_flag_ok": true,
+      "got": {
+        "doc_type": "lab_report",
+        "doc_date": "2024-03-13",
+        "provider": "City Diagnostics Laboratory",
+        "patient": "Asha Verma"
+      },
+      "obs": {
+        "expected": 14,
+        "extracted": 14,
+        "matched": 14,
+        "page_correct": 14,
+        "wrong_value": [],
+        "wrong_date": [],
+        "missed": [],
+        "extra": []
+      },
+      "dropped_by_grounding": 0,
+      "flagged": 0,
+      "flagged_wrong": 0,
+      "flagged_notes": [],
+      "rejected_by_normalization": [],
+      "meds": {
+        "matched": 0,
+        "expected": 0,
+        "extracted": 0
+      },
+      "conds": {
+        "matched": 2,
+        "expected": 2,
+        "extracted": 2
+      }
+    },
+    {
+      "file": "lab_asha_2025-01.pdf",
+      "category": "lab_typed",
+      "parse_seconds": 1.5,
+      "ocr_confidence": null,
+      "engines": [
+        "docling"
+      ],
+      "model": "gemini-3-flash-preview",
+      "doc_type_ok": true,
+      "doc_date_ok": true,
+      "provider_ok": true,
+      "patient_ok": true,
+      "mismatch_flag_ok": true,
+      "got": {
+        "doc_type": "lab_report",
+        "doc_date": "2025-01-20",
+        "provider": "Lifeline Pathology",
+        "patient": "Asha Verma"
+      },
+      "obs": {
+        "expected": 4,
+        "extracted": 4,
+        "matched": 4,
+        "page_correct": 4,
+        "wrong_value": [],
+        "wrong_date": [],
+        "missed": [],
+        "extra": []
+      },
+      "dropped_by_grounding": 0,
+      "flagged": 0,
+      "flagged_wrong": 0,
+      "flagged_notes": [],
+      "rejected_by_normalization": [],
+      "meds": {
+        "matched": 0,
+        "expected": 0,
+        "extracted": 0
+      },
+      "conds": {
+        "matched": 0,
+        "expected": 0,
+        "extracted": 0
+      }
+    },
+    {
+      "file": "lab_meera_2024-05.pdf",
+      "category": "lab_typed",
+      "parse_seconds": 1.5,
+      "ocr_confidence": null,
+      "engines": [
+        "docling"
+      ],
+      "model": "gemini-3-flash-preview",
+      "doc_type_ok": true,
+      "doc_date_ok": true,
+      "provider_ok": true,
+      "patient_ok": true,
+      "mismatch_flag_ok": true,
+      "got": {
+        "doc_type": "lab_report",
+        "doc_date": "2024-05-04",
+        "provider": "Lifeline Pathology",
+        "patient": "Meera Verma"
+      },
+      "obs": {
+        "expected": 4,
+        "extracted": 4,
+        "matched": 4,
+        "page_correct": 4,
+        "wrong_value": [],
+        "wrong_date": [],
+        "missed": [],
+        "extra": []
+      },
+      "dropped_by_grounding": 0,
+      "flagged": 0,
+      "flagged_wrong": 0,
+      "flagged_notes": [],
+      "rejected_by_normalization": [],
+      "meds": {
+        "matched": 0,
+        "expected": 0,
+        "extracted": 0
+      },
+      "conds": {
+        "matched": 2,
+        "expected": 2,
+        "extracted": 2
+      }
+    },
+    {
+      "file": "lab_ravi_2023-06.pdf",
+      "category": "lab_typed",
+      "parse_seconds": 2.1,
+      "ocr_confidence": null,
+      "engines": [
+        "docling"
+      ],
+      "model": "gemini-3-flash-preview",
+      "doc_type_ok": true,
+      "doc_date_ok": true,
+      "provider_ok": true,
+      "patient_ok": true,
+      "mismatch_flag_ok": true,
+      "got": {
+        "doc_type": "lab_report",
+        "doc_date": "2023-06-02",
+        "provider": "Metro Lab Services",
+        "patient": "Ravi Verma"
+      },
+      "obs": {
+        "expected": 8,
+        "extracted": 8,
+        "matched": 8,
+        "page_correct": 8,
+        "wrong_value": [],
+        "wrong_date": [],
+        "missed": [],
+        "extra": []
+      },
+      "dropped_by_grounding": 0,
+      "flagged": 0,
+      "flagged_wrong": 0,
+      "flagged_notes": [],
+      "rejected_by_normalization": [],
+      "meds": {
+        "matched": 0,
+        "expected": 0,
+        "extracted": 0
+      },
+      "conds": {
+        "matched": 0,
+        "expected": 0,
+        "extracted": 0
+      }
+    },
+    {
+      "file": "lab_ravi_2024-07.pdf",
+      "category": "lab_typed",
+      "parse_seconds": 1.5,
+      "ocr_confidence": null,
+      "engines": [
+        "docling"
+      ],
+      "model": "gemini-3-flash-preview",
+      "doc_type_ok": true,
+      "doc_date_ok": true,
+      "provider_ok": true,
+      "patient_ok": true,
+      "mismatch_flag_ok": true,
+      "got": {
+        "doc_type": "lab_report",
+        "doc_date": "2024-07-15",
+        "provider": "Metro Lab Services",
+        "patient": "Ravi Verma"
+      },
+      "obs": {
+        "expected": 4,
+        "extracted": 4,
+        "matched": 4,
+        "page_correct": 4,
+        "wrong_value": [],
+        "wrong_date": [],
+        "missed": [],
+        "extra": []
+      },
+      "dropped_by_grounding": 0,
+      "flagged": 0,
+      "flagged_wrong": 0,
+      "flagged_notes": [],
+      "rejected_by_normalization": [],
+      "meds": {
+        "matched": 0,
+        "expected": 0,
+        "extracted": 0
+      },
+      "conds": {
+        "matched": 1,
+        "expected": 1,
+        "extracted": 1
+      }
+    },
+    {
+      "file": "lab_ravi_2025-02.pdf",
+      "category": "lab_typed",
+      "parse_seconds": 3.1,
+      "ocr_confidence": null,
+      "engines": [
+        "docling"
+      ],
+      "model": "gemini-3-flash-preview",
+      "doc_type_ok": true,
+      "doc_date_ok": true,
+      "provider_ok": true,
+      "patient_ok": true,
+      "mismatch_flag_ok": true,
+      "got": {
+        "doc_type": "lab_report",
+        "doc_date": "2025-02-11",
+        "provider": "Apollo Diagnostics Centre",
+        "patient": "Ravi Verma"
+      },
+      "obs": {
+        "expected": 9,
+        "extracted": 9,
+        "matched": 9,
+        "page_correct": 9,
+        "wrong_value": [],
+        "wrong_date": [],
+        "missed": [],
+        "extra": []
+      },
+      "dropped_by_grounding": 0,
+      "flagged": 0,
+      "flagged_wrong": 0,
+      "flagged_notes": [],
+      "rejected_by_normalization": [],
+      "meds": {
+        "matched": 0,
+        "expected": 0,
+        "extracted": 0
+      },
+      "conds": {
+        "matched": 0,
+        "expected": 0,
+        "extracted": 0
+      }
+    },
+    {
+      "file": "opd_asha_2023-11.png",
+      "category": "opd_card",
+      "parse_seconds": 0.2,
+      "ocr_confidence": 0.925,
+      "engines": [
+        "tesseract"
+      ],
+      "model": "gemini-3-flash-preview",
+      "doc_type_ok": true,
+      "doc_date_ok": true,
+      "provider_ok": true,
+      "patient_ok": true,
+      "mismatch_flag_ok": true,
+      "got": {
+        "doc_type": "consultation_note",
+        "doc_date": "2023-11-05",
+        "provider": "Green Valley Hospital",
+        "patient": "Asha Verma"
+      },
+      "obs": {
+        "expected": 5,
+        "extracted": 5,
+        "matched": 5,
+        "page_correct": 5,
+        "wrong_value": [],
+        "wrong_date": [],
+        "missed": [],
+        "extra": []
+      },
+      "dropped_by_grounding": 0,
+      "flagged": 0,
+      "flagged_wrong": 0,
+      "flagged_notes": [],
+      "rejected_by_normalization": [],
+      "meds": {
+        "matched": 0,
+        "expected": 0,
+        "extracted": 0
+      },
+      "conds": {
+        "matched": 1,
+        "expected": 1,
+        "extracted": 1
+      }
+    },
+    {
+      "file": "opd_asha_2025-06.jpg",
+      "category": "opd_card",
+      "parse_seconds": 0.2,
+      "ocr_confidence": 0.913,
+      "engines": [
+        "tesseract"
+      ],
+      "model": "gemini-3-flash-preview",
+      "doc_type_ok": true,
+      "doc_date_ok": true,
+      "provider_ok": true,
+      "patient_ok": true,
+      "mismatch_flag_ok": true,
+      "got": {
+        "doc_type": "consultation_note",
+        "doc_date": "2025-06-09",
+        "provider": "Green Valley Hospital",
+        "patient": "Asha Verma"
+      },
+      "obs": {
+        "expected": 5,
+        "extracted": 5,
+        "matched": 5,
+        "page_correct": 5,
+        "wrong_value": [],
+        "wrong_date": [],
+        "missed": [],
+        "extra": []
+      },
+      "dropped_by_grounding": 0,
+      "flagged": 0,
+      "flagged_wrong": 0,
+      "flagged_notes": [],
+      "rejected_by_normalization": [],
+      "meds": {
+        "matched": 0,
+        "expected": 0,
+        "extracted": 0
+      },
+      "conds": {
+        "matched": 0,
+        "expected": 0,
+        "extracted": 0
+      }
+    },
+    {
+      "file": "opd_meera_2025-01.jpg",
+      "category": "opd_card",
+      "parse_seconds": 0.2,
+      "ocr_confidence": 0.913,
+      "engines": [
+        "tesseract"
+      ],
+      "model": "gemini-3-flash-preview",
+      "doc_type_ok": true,
+      "doc_date_ok": true,
+      "provider_ok": true,
+      "patient_ok": true,
+      "mismatch_flag_ok": true,
+      "got": {
+        "doc_type": "consultation_note",
+        "doc_date": "2025-01-15",
+        "provider": "Green Valley Hospital",
+        "patient": "Meera Verma"
+      },
+      "obs": {
+        "expected": 5,
+        "extracted": 5,
+        "matched": 5,
+        "page_correct": 5,
+        "wrong_value": [],
+        "wrong_date": [],
+        "missed": [],
+        "extra": []
+      },
+      "dropped_by_grounding": 0,
+      "flagged": 0,
+      "flagged_wrong": 0,
+      "flagged_notes": [],
+      "rejected_by_normalization": [],
+      "meds": {
+        "matched": 0,
+        "expected": 0,
+        "extracted": 0
+      },
+      "conds": {
+        "matched": 0,
+        "expected": 0,
+        "extracted": 0
+      }
+    },
+    {
+      "file": "opd_ravi_2024-03.png",
+      "category": "opd_card",
+      "parse_seconds": 0.2,
+      "ocr_confidence": 0.937,
+      "engines": [
+        "tesseract"
+      ],
+      "model": "gemini-3.1-flash-lite",
+      "doc_type_ok": true,
+      "doc_date_ok": true,
+      "provider_ok": true,
+      "patient_ok": true,
+      "mismatch_flag_ok": true,
+      "got": {
+        "doc_type": "consultation_note",
+        "doc_date": "2024-03-02",
+        "provider": "Green Valley Hospital",
+        "patient": "Ravi Verma"
+      },
+      "obs": {
+        "expected": 5,
+        "extracted": 5,
+        "matched": 5,
+        "page_correct": 5,
+        "wrong_value": [],
+        "wrong_date": [],
+        "missed": [],
+        "extra": []
+      },
+      "dropped_by_grounding": 0,
+      "flagged": 0,
+      "flagged_wrong": 0,
+      "flagged_notes": [],
+      "rejected_by_normalization": [],
+      "meds": {
+        "matched": 0,
+        "expected": 0,
+        "extracted": 0
+      },
+      "conds": {
+        "matched": 0,
+        "expected": 0,
+        "extracted": 0
+      }
+    },
+    {
+      "file": "rx_asha_2024-03.docx",
+      "category": "prescription_docx",
+      "parse_seconds": 0.0,
+      "ocr_confidence": null,
+      "engines": [
+        "docling"
+      ],
+      "model": "gemini-3.1-flash-lite",
+      "doc_type_ok": false,
+      "doc_date_ok": true,
+      "provider_ok": true,
+      "patient_ok": true,
+      "mismatch_flag_ok": true,
+      "got": {
+        "doc_type": "consultation_note",
+        "doc_date": "2024-03-20",
+        "provider": "Sunrise Family Clinic",
+        "patient": "Asha Verma"
+      },
+      "obs": {
+        "expected": 3,
+        "extracted": 3,
+        "matched": 3,
+        "page_correct": 3,
+        "wrong_value": [],
+        "wrong_date": [],
+        "missed": [],
+        "extra": []
+      },
+      "dropped_by_grounding": 0,
+      "flagged": 0,
+      "flagged_wrong": 0,
+      "flagged_notes": [],
+      "rejected_by_normalization": [],
+      "meds": {
+        "matched": 3,
+        "expected": 3,
+        "extracted": 3
+      },
+      "conds": {
+        "matched": 3,
+        "expected": 3,
+        "extracted": 3
+      }
+    },
+    {
+      "file": "rx_asha_2025-01.docx",
+      "category": "prescription_docx",
+      "parse_seconds": 0.0,
+      "ocr_confidence": null,
+      "engines": [
+        "docling"
+      ],
+      "model": "gemini-3.1-flash-lite",
+      "doc_type_ok": true,
+      "doc_date_ok": true,
+      "provider_ok": true,
+      "patient_ok": true,
+      "mismatch_flag_ok": true,
+      "got": {
+        "doc_type": "prescription",
+        "doc_date": "2025-01-27",
+        "provider": "Sunrise Family Clinic",
+        "patient": "Asha Verma"
+      },
+      "obs": {
+        "expected": 3,
+        "extracted": 3,
+        "matched": 3,
+        "page_correct": 3,
+        "wrong_value": [],
+        "wrong_date": [],
+        "missed": [],
+        "extra": []
+      },
+      "dropped_by_grounding": 0,
+      "flagged": 0,
+      "flagged_wrong": 0,
+      "flagged_notes": [],
+      "rejected_by_normalization": [],
+      "meds": {
+        "matched": 3,
+        "expected": 3,
+        "extracted": 3
+      },
+      "conds": {
+        "matched": 2,
+        "expected": 2,
+        "extracted": 2
+      }
+    },
+    {
+      "file": "rx_meera_2024-05.docx",
+      "category": "prescription_docx",
+      "parse_seconds": 0.0,
+      "ocr_confidence": null,
+      "engines": [
+        "docling"
+      ],
+      "model": "gemini-3.1-flash-lite",
+      "doc_type_ok": true,
+      "doc_date_ok": true,
+      "provider_ok": true,
+      "patient_ok": true,
+      "mismatch_flag_ok": true,
+      "got": {
+        "doc_type": "prescription",
+        "doc_date": "2024-05-10",
+        "provider": "St. Anne's Children's Clinic",
+        "patient": "Meera Verma"
+      },
+      "obs": {
+        "expected": 3,
+        "extracted": 3,
+        "matched": 3,
+        "page_correct": 3,
+        "wrong_value": [],
+        "wrong_date": [],
+        "missed": [],
+        "extra": []
+      },
+      "dropped_by_grounding": 0,
+      "flagged": 0,
+      "flagged_wrong": 0,
+      "flagged_notes": [],
+      "rejected_by_normalization": [],
+      "meds": {
+        "matched": 2,
+        "expected": 2,
+        "extracted": 2
+      },
+      "conds": {
+        "matched": 1,
+        "expected": 1,
+        "extracted": 1
+      }
+    },
+    {
+      "file": "rx_ravi_2024-07.docx",
+      "category": "prescription_docx",
+      "parse_seconds": 0.0,
+      "ocr_confidence": null,
+      "engines": [
+        "docling"
+      ],
+      "model": "gemini-3.1-flash-lite",
+      "doc_type_ok": true,
+      "doc_date_ok": true,
+      "provider_ok": true,
+      "patient_ok": true,
+      "mismatch_flag_ok": true,
+      "got": {
+        "doc_type": "prescription",
+        "doc_date": "2024-07-22",
+        "provider": "Sunrise Family Clinic",
+        "patient": "Ravi Verma"
+      },
+      "obs": {
+        "expected": 3,
+        "extracted": 3,
+        "matched": 3,
+        "page_correct": 3,
+        "wrong_value": [],
+        "wrong_date": [],
+        "missed": [],
+        "extra": []
+      },
+      "dropped_by_grounding": 0,
+      "flagged": 0,
+      "flagged_wrong": 0,
+      "flagged_notes": [],
+      "rejected_by_normalization": [],
+      "meds": {
+        "matched": 2,
+        "expected": 2,
+        "extracted": 2
+      },
+      "conds": {
+        "matched": 2,
+        "expected": 2,
+        "extracted": 2
+      }
+    },
+    {
+      "file": "rx_ravi_2025-02.docx",
+      "category": "prescription_docx",
+      "parse_seconds": 0.0,
+      "ocr_confidence": null,
+      "engines": [
+        "docling"
+      ],
+      "model": "gemini-3.5-flash",
+      "doc_type_ok": true,
+      "doc_date_ok": true,
+      "provider_ok": true,
+      "patient_ok": true,
+      "mismatch_flag_ok": true,
+      "got": {
+        "doc_type": "prescription",
+        "doc_date": "2025-02-18",
+        "provider": "Sunrise Family Clinic",
+        "patient": "Ravi Verma"
+      },
+      "obs": {
+        "expected": 3,
+        "extracted": 3,
+        "matched": 3,
+        "page_correct": 3,
+        "wrong_value": [],
+        "wrong_date": [],
+        "missed": [],
+        "extra": []
+      },
+      "dropped_by_grounding": 0,
+      "flagged": 0,
+      "flagged_wrong": 0,
+      "flagged_notes": [],
+      "rejected_by_normalization": [],
+      "meds": {
+        "matched": 3,
+        "expected": 3,
+        "extracted": 3
+      },
+      "conds": {
+        "matched": 2,
+        "expected": 2,
+        "extracted": 2
+      }
+    },
+    {
+      "file": "scan_lab_asha_2023-09.pdf",
+      "category": "lab_scanned",
+      "parse_seconds": 0.5,
+      "ocr_confidence": 0.891,
+      "engines": [
+        "tesseract"
+      ],
+      "model": "gemini-3.1-flash-lite",
+      "doc_type_ok": true,
+      "doc_date_ok": true,
+      "provider_ok": true,
+      "patient_ok": true,
+      "mismatch_flag_ok": true,
+      "got": {
+        "doc_type": "lab_report",
+        "doc_date": "2023-09-14",
+        "provider": "City Diagnostics Laboratory",
+        "patient": "Asha Verma"
+      },
+      "obs": {
+        "expected": 2,
+        "extracted": 2,
+        "matched": 2,
+        "page_correct": 2,
+        "wrong_value": [],
+        "wrong_date": [],
+        "missed": [],
+        "extra": []
+      },
+      "dropped_by_grounding": 0,
+      "flagged": 0,
+      "flagged_wrong": 0,
+      "flagged_notes": [],
+      "rejected_by_normalization": [],
+      "meds": {
+        "matched": 0,
+        "expected": 0,
+        "extracted": 0
+      },
+      "conds": {
+        "matched": 0,
+        "expected": 0,
+        "extracted": 0
+      }
+    },
+    {
+      "file": "scan_lab_asha_2024-08.jpg",
+      "category": "lab_scanned",
+      "parse_seconds": 0.2,
+      "ocr_confidence": 0.822,
+      "engines": [
+        "tesseract"
+      ],
+      "model": "gemini-3.1-flash-lite",
+      "doc_type_ok": true,
+      "doc_date_ok": true,
+      "provider_ok": true,
+      "patient_ok": true,
+      "mismatch_flag_ok": true,
+      "got": {
+        "doc_type": "lab_report",
+        "doc_date": "2024-08-18",
+        "provider": "City Diagnostics Laboratory",
+        "patient": "Asha Verma"
+      },
+      "obs": {
+        "expected": 6,
+        "extracted": 6,
+        "matched": 6,
+        "page_correct": 6,
+        "wrong_value": [],
+        "wrong_date": [],
+        "missed": [],
+        "extra": []
+      },
+      "dropped_by_grounding": 0,
+      "flagged": 0,
+      "flagged_wrong": 0,
+      "flagged_notes": [],
+      "rejected_by_normalization": [],
+      "meds": {
+        "matched": 0,
+        "expected": 0,
+        "extracted": 0
+      },
+      "conds": {
+        "matched": 0,
+        "expected": 0,
+        "extracted": 0
+      }
+    },
+    {
+      "file": "scan_lab_meera_2023-08.jpg",
+      "category": "lab_scanned",
+      "parse_seconds": 0.2,
+      "ocr_confidence": 0.909,
+      "engines": [
+        "tesseract"
+      ],
+      "model": "gemini-3.1-flash-lite",
+      "doc_type_ok": true,
+      "doc_date_ok": true,
+      "provider_ok": true,
+      "patient_ok": true,
+      "mismatch_flag_ok": true,
+      "got": {
+        "doc_type": "lab_report",
+        "doc_date": "2023-08-30",
+        "provider": "Metro Lab Services",
+        "patient": "Meera Verma"
+      },
+      "obs": {
+        "expected": 2,
+        "extracted": 2,
+        "matched": 2,
+        "page_correct": 2,
+        "wrong_value": [],
+        "wrong_date": [],
+        "missed": [],
+        "extra": []
+      },
+      "dropped_by_grounding": 0,
+      "flagged": 0,
+      "flagged_wrong": 0,
+      "flagged_notes": [],
+      "rejected_by_normalization": [],
+      "meds": {
+        "matched": 0,
+        "expected": 0,
+        "extracted": 0
+      },
+      "conds": {
+        "matched": 0,
+        "expected": 0,
+        "extracted": 0
+      }
+    },
+    {
+      "file": "scan_lab_meera_2025-03.pdf",
+      "category": "lab_scanned",
+      "parse_seconds": 0.7,
+      "ocr_confidence": 0.738,
+      "engines": [
+        "gemini-vision"
+      ],
+      "model": "gemini-3.1-flash-lite",
+      "doc_type_ok": true,
+      "doc_date_ok": true,
+      "provider_ok": true,
+      "patient_ok": true,
+      "mismatch_flag_ok": true,
+      "got": {
+        "doc_type": "lab_report",
+        "doc_date": "2025-03-06",
+        "provider": "Lifeline Pathology",
+        "patient": "Meera Verma"
+      },
+      "obs": {
+        "expected": 4,
+        "extracted": 4,
+        "matched": 4,
+        "page_correct": 4,
+        "wrong_value": [],
+        "wrong_date": [],
+        "missed": [],
+        "extra": []
+      },
+      "dropped_by_grounding": 0,
+      "flagged": 4,
+      "flagged_wrong": 0,
+      "flagged_notes": [
+        "Read by AI from a poor-quality scan"
+      ],
+      "rejected_by_normalization": [],
+      "meds": {
+        "matched": 0,
+        "expected": 0,
+        "extracted": 0
+      },
+      "conds": {
+        "matched": 0,
+        "expected": 0,
+        "extracted": 0
+      }
+    },
+    {
+      "file": "scan_lab_ravi_2023-11.pdf",
+      "category": "lab_scanned",
+      "parse_seconds": 0.5,
+      "ocr_confidence": 0.884,
+      "engines": [
+        "tesseract"
+      ],
+      "model": "gemini-3.1-flash-lite",
+      "doc_type_ok": true,
+      "doc_date_ok": true,
+      "provider_ok": true,
+      "patient_ok": true,
+      "mismatch_flag_ok": true,
+      "got": {
+        "doc_type": "lab_report",
+        "doc_date": "2023-11-21",
+        "provider": "Lifeline Pathology",
+        "patient": "Ravi Verma"
+      },
+      "obs": {
+        "expected": 3,
+        "extracted": 3,
+        "matched": 3,
+        "page_correct": 3,
+        "wrong_value": [],
+        "wrong_date": [],
+        "missed": [],
+        "extra": []
+      },
+      "dropped_by_grounding": 0,
+      "flagged": 0,
+      "flagged_wrong": 0,
+      "flagged_notes": [],
+      "rejected_by_normalization": [],
+      "meds": {
+        "matched": 0,
+        "expected": 0,
+        "extracted": 0
+      },
+      "conds": {
+        "matched": 0,
+        "expected": 0,
+        "extracted": 0
+      }
+    },
+    {
+      "file": "scan_lab_ravi_2024-12.jpg",
+      "category": "lab_scanned",
+      "parse_seconds": 0.2,
+      "ocr_confidence": 0.873,
+      "engines": [
+        "tesseract"
+      ],
+      "model": "gemini-3.1-flash-lite",
+      "doc_type_ok": true,
+      "doc_date_ok": true,
+      "provider_ok": true,
+      "patient_ok": true,
+      "mismatch_flag_ok": true,
+      "got": {
+        "doc_type": "lab_report",
+        "doc_date": "2024-12-09",
+        "provider": "Apollo Diagnostics Centre",
+        "patient": "Ravi Verma"
+      },
+      "obs": {
+        "expected": 5,
+        "extracted": 5,
+        "matched": 5,
+        "page_correct": 5,
+        "wrong_value": [],
+        "wrong_date": [],
+        "missed": [],
+        "extra": []
+      },
+      "dropped_by_grounding": 0,
+      "flagged": 0,
+      "flagged_wrong": 0,
+      "flagged_notes": [],
+      "rejected_by_normalization": [],
+      "meds": {
+        "matched": 0,
+        "expected": 0,
+        "extracted": 0
+      },
+      "conds": {
+        "matched": 0,
+        "expected": 0,
+        "extracted": 0
+      }
+    }
+  ],
+  "llm": {
+    "calls": 0,
+    "cache_hits": 39
+  }
+}

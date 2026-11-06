@@ -1,0 +1,28 @@
+{
+  "file": "handwritten_rx_meera_2024-09.png",
+  "mime": "image/png",
+  "category": "handwritten_rx",
+  "profile": "Meera Verma",
+  "notes": "simulated handwriting",
+  "expect_failure": false,
+  "expected": {
+    "doc_type": "prescription",
+    "doc_date": "2024-09-20",
+    "provider": "St. Anne's Children's Clinic",
+    "patient_name": "Meera Verma",
+    "name_mismatch": false,
+    "observations": [
+      {
+        "code": "weight",
+        "value": 41.0,
+        "unit": "kg",
+        "date": "2024-09-20",
+        "page": 1
+      }
+    ],
+    "medications": [
+      "Paracetamol 250 mg"
+    ],
+    "conditions": []
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "file": "rx_meera_2024-05.docx",
+  "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "category": "prescription_docx",
+  "profile": "Meera Verma",
+  "notes": "",
+  "expect_failure": false,
+  "expected": {
+    "doc_type": "prescription",
+    "doc_date": "2024-05-10",
+    "provider": "St. Anne's Children's Clinic",
+    "patient_name": "Meera Verma",
+    "name_mismatch": false,
+    "observations": [
+      {
+        "code": "bp_systolic",
+        "value": 107.0,
+        "unit": "mmHg",
+        "date": "2024-05-10",
+        "page": 1
+      },
+      {
+        "code": "bp_diastolic",
+        "value": 70.0,
+        "unit": "mmHg",
+        "date": "2024-05-10",
+        "page": 1
+      },
+      {
+        "code": "weight",
+        "value": 42.0,
+        "unit": "kg",
+        "date": "2024-05-10",
+        "page": 1
+      }
+    ],
+    "medications": [
+      "Ferrous sulphate 100 mg",
+      "Cholecalciferol 1000 IU"
+    ],
+    "conditions": [
+      "Iron deficiency anaemia"
+    ]
+  }
+}

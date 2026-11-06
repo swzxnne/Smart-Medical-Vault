@@ -1,0 +1,54 @@
+{
+  "file": "opd_ravi_2024-03.png",
+  "mime": "image/png",
+  "category": "opd_card",
+  "profile": "Ravi Verma",
+  "notes": "",
+  "expect_failure": false,
+  "expected": {
+    "doc_type": "consultation_note",
+    "doc_date": "2024-03-02",
+    "provider": "Green Valley Hospital",
+    "patient_name": "Ravi Verma",
+    "name_mismatch": false,
+    "observations": [
+      {
+        "code": "bp_systolic",
+        "value": 144.0,
+        "unit": "mmHg",
+        "date": "2024-03-02",
+        "page": 1
+      },
+      {
+        "code": "bp_diastolic",
+        "value": 87.0,
+        "unit": "mmHg",
+        "date": "2024-03-02",
+        "page": 1
+      },
+      {
+        "code": "pulse",
+        "value": 78.0,
+        "unit": "bpm",
+        "date": "2024-03-02",
+        "page": 1
+      },
+      {
+        "code": "weight",
+        "value": 85.0,
+        "unit": "kg",
+        "date": "2024-03-02",
+        "page": 1
+      },
+      {
+        "code": "spo2",
+        "value": 98.0,
+        "unit": "%",
+        "date": "2024-03-02",
+        "page": 1
+      }
+    ],
+    "medications": [],
+    "conditions": []
+  }
+}

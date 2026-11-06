@@ -1,0 +1,514 @@
+{
+  "summary": {
+    "questions": 19,
+    "unanswered": 0,
+    "retrieval_page": 1.0,
+    "retrieval_document": 1.0,
+    "answer_correct": 1.0,
+    "citation_correct": 1.0,
+    "not_found_correct": 1.0,
+    "by_kind": {
+      "medication": {
+        "questions": 4,
+        "answer": 1.0
+      },
+      "metric": {
+        "questions": 7,
+        "answer": 1.0
+      },
+      "narrative": {
+        "questions": 3,
+        "answer": 1.0
+      },
+      "not_found": {
+        "questions": 4,
+        "answer": 1.0
+      },
+      "trend": {
+        "questions": 1,
+        "answer": 1.0
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": "q01",
+      "kind": "metric",
+      "question": "What was Asha's HbA1c in March 2024?",
+      "answer": "Asha Verma's HbA1c in March 2024 was 6.4% [S1][S4].\n\nHbA1c is a blood test that measures your average blood sugar levels over the past two to three months. You may want to discuss these results with your doctor.",
+      "status": "done",
+      "model": "gemini-3.1-flash-lite",
+      "error": null,
+      "cited": [
+        [
+          "lab_asha_2024-03.pdf",
+          1
+        ],
+        [
+          "lab_asha_2024-03.pdf",
+          1
+        ]
+      ],
+      "answered": true,
+      "retrieval_hit": true,
+      "retrieval_doc_hit": true,
+      "answer_ok": true,
+      "missing": [],
+      "citation_ok": true
+    },
+    {
+      "id": "q02",
+      "kind": "metric",
+      "question": "What was Asha's BP in 2024?",
+      "answer": "Asha Verma's blood pressure readings in 2024 were as follows:\n\n*   **2024-03-13:** 141/89 mmHg [S1][S6]\n*   **2024-03-20:** 142/91 mmHg [S2][S7]\n*   **2024-11-12:** 137/88 mmHg (unverified) [S3]\n\nBlood pressure is a measure of the force of blood against your artery walls. If you have concerns about these readings, please discuss them with your doctor.",
+      "status": "done",
+      "model": "gemini-3.1-flash-lite",
+      "error": null,
+      "cited": [
+        [
+          "lab_asha_2024-03.pdf",
+          1
+        ],
+        [
+          "lab_asha_2024-03.pdf",
+          1
+        ],
+        [
+          "rx_asha_2024-03.docx",
+          1
+        ],
+        [
+          "rx_asha_2024-03.docx",
+          1
+        ],
+        [
+          "hard_handwritten_rx_asha_2024-11.png",
+          1
+        ]
+      ],
+      "answered": true,
+      "retrieval_hit": true,
+      "retrieval_doc_hit": true,
+      "answer_ok": true,
+      "missing": [],
+      "citation_ok": true
+    },
+    {
+      "id": "q03",
+      "kind": "trend",
+      "question": "How has Asha's HbA1c changed over time?",
+      "answer": "Asha Verma's HbA1c levels have consistently remained above the reference range (4.0 - 5.6%) since February 2023. The chronological progression is as follows:\n\n*   **2023-02-08:** 6.1 % [S1]\n*   **2023-09-14:** 6.2 % [S2][S7]\n*   **2024-03-13:** 6.4 % [S3][S10]\n*   **2024-08-18:** 6.4 % [S4][S9]\n*   **2024-10-07:** 6.5 % (unverified) [S5]\n*   **2025-01-20:** 6.3 % [S6][S8]\n\nHbA1c is a test that measures your average blood sugar levels over the past two to three months. Because these results are consistently flagged as high, you may want to discuss these trends with your doctor to understand what they mean for your health.",
+      "status": "done",
+      "model": "gemini-3.1-flash-lite",
+      "error": null,
+      "cited": [
+        [
+          "lab_asha_2023-02.pdf",
+          1
+        ],
+        [
+          "scan_lab_asha_2023-09.pdf",
+          1
+        ],
+        [
+          "scan_lab_asha_2023-09.pdf",
+          1
+        ],
+        [
+          "lab_asha_2024-03.pdf",
+          1
+        ],
+        [
+          "lab_asha_2024-03.pdf",
+          1
+        ],
+        [
+          "scan_lab_asha_2024-08.jpg",
+          1
+        ],
+        [
+          "scan_lab_asha_2024-08.jpg",
+          1
+        ],
+        [
+          "hard_faded_asha_2024-10.jpg",
+          1
+        ],
+        [
+          "lab_asha_2025-01.pdf",
+          1
+        ],
+        [
+          "lab_asha_2025-01.pdf",
+          1
+        ]
+      ],
+      "answered": true,
+      "retrieval_hit": true,
+      "retrieval_doc_hit": true,
+      "answer_ok": true,
+      "missing": [],
+      "citation_ok": true
+    },
+    {
+      "id": "q04",
+      "kind": "metric",
+      "question": "What was Ravi's creatinine in June 2023?",
+      "answer": "Ravi Verma's serum creatinine levels in June 2023 were:\n\n*   **1.34 mg/dL** on 2023-06-02 [S1]\n*   **118.5 umol/L** on 2023-06-02 [S4]\n\nCreatinine is a waste product in the blood that is filtered by the kidneys; levels outside the reference range may indicate changes in kidney function. You should discuss these results with your doctor to understand what they mean for your health.",
+      "status": "done",
+      "model": "gemini-3.1-flash-lite",
+      "error": null,
+      "cited": [
+        [
+          "lab_ravi_2023-06.pdf",
+          1
+        ],
+        [
+          "lab_ravi_2023-06.pdf",
+          1
+        ]
+      ],
+      "answered": true,
+      "retrieval_hit": true,
+      "retrieval_doc_hit": true,
+      "answer_ok": true,
+      "missing": [],
+      "citation_ok": true
+    },
+    {
+      "id": "q05",
+      "kind": "metric",
+      "question": "What was Ravi's TSH in July 2024?",
+      "answer": "Ravi Verma's TSH level in July 2024 was 6.74 \u00b5IU/mL [S2][S4].",
+      "status": "done",
+      "model": "gemini-3.1-flash-lite",
+      "error": null,
+      "cited": [
+        [
+          "lab_ravi_2024-07.pdf",
+          1
+        ],
+        [
+          "lab_ravi_2024-07.pdf",
+          1
+        ]
+      ],
+      "answered": true,
+      "retrieval_hit": true,
+      "retrieval_doc_hit": true,
+      "answer_ok": true,
+      "missing": [],
+      "citation_ok": true
+    },
+    {
+      "id": "q06",
+      "kind": "medication",
+      "question": "Which thyroid medicine is Ravi taking and at what dose?",
+      "answer": "Ravi Verma is currently taking Levothyroxine at a dose of 50 mcg, one tablet daily [S6].\n\nThis information is based on his most recent prescription dated February 18, 2025 [S6]. Please discuss these medications and your health records with your doctor.",
+      "status": "done",
+      "model": "gemini-3.1-flash-lite",
+      "error": null,
+      "cited": [
+        [
+          "rx_ravi_2025-02.docx",
+          1
+        ]
+      ],
+      "answered": true,
+      "retrieval_hit": true,
+      "retrieval_doc_hit": true,
+      "answer_ok": true,
+      "missing": [],
+      "citation_ok": true
+    },
+    {
+      "id": "q07",
+      "kind": "narrative",
+      "question": "Why was Ravi admitted to hospital in October 2024?",
+      "answer": "Ravi Verma was admitted to the hospital in October 2024 with breathlessness and fatigue [S1]. His final diagnosis was acute gastroenteritis and pre-renal acute kidney injury [S1].\n\nIf you have concerns regarding these diagnoses, please discuss them with his doctor.",
+      "status": "done",
+      "model": "gemini-3.1-flash-lite",
+      "error": null,
+      "cited": [
+        [
+          "discharge_ravi_2024-10.pdf",
+          1
+        ]
+      ],
+      "answered": true,
+      "retrieval_hit": true,
+      "retrieval_doc_hit": true,
+      "answer_ok": true,
+      "missing": [],
+      "citation_ok": true
+    },
+    {
+      "id": "q08",
+      "kind": "medication",
+      "question": "What medicines was Ravi given at discharge in April 2025?",
+      "answer": "At discharge in April 2025, Ravi Verma was prescribed the following medications [S1]:\n\n*   Amlodipine 5 mg [S1]\n*   Telmisartan 40 mg [S1]\n\nIf you have questions about these medications or his condition, please discuss them with his doctor.",
+      "status": "done",
+      "model": "gemini-3.1-flash-lite",
+      "error": null,
+      "cited": [
+        [
+          "discharge_ravi_2025-04.pdf",
+          2
+        ]
+      ],
+      "answered": true,
+      "retrieval_hit": true,
+      "retrieval_doc_hit": true,
+      "answer_ok": true,
+      "missing": [],
+      "citation_ok": true
+    },
+    {
+      "id": "q09",
+      "kind": "narrative",
+      "question": "What was Meera's platelet count during dengue?",
+      "answer": "Meera's platelet count during her admission for dengue fever was 0.9 lakh/cumm [S1].",
+      "status": "done",
+      "model": "gemini-3.1-flash-lite",
+      "error": null,
+      "cited": [
+        [
+          "discharge_meera_2024-09.pdf",
+          1
+        ]
+      ],
+      "answered": true,
+      "retrieval_hit": true,
+      "retrieval_doc_hit": true,
+      "answer_ok": true,
+      "missing": [],
+      "citation_ok": true
+    },
+    {
+      "id": "q10",
+      "kind": "metric",
+      "question": "What was Meera's hemoglobin in May 2024?",
+      "answer": "Meera's hemoglobin result in May 2024 was 118 g/L [S2][S4].\n\n*   **Date:** 2024-05-04 [S2][S4]\n*   **Result:** 118 g/L [S2][S4]\n\nHemoglobin is a protein in red blood cells that carries oxygen throughout the body. You may wish to discuss these results and the diagnosis of iron deficiency anaemia mentioned in her records [S4][S6] with her doctor.",
+      "status": "done",
+      "model": "gemini-3.1-flash-lite",
+      "error": null,
+      "cited": [
+        [
+          "lab_meera_2024-05.pdf",
+          1
+        ],
+        [
+          "lab_meera_2024-05.pdf",
+          1
+        ],
+        [
+          "rx_meera_2024-05.docx",
+          1
+        ]
+      ],
+      "answered": true,
+      "retrieval_hit": true,
+      "retrieval_doc_hit": true,
+      "answer_ok": true,
+      "missing": [],
+      "citation_ok": true
+    },
+    {
+      "id": "q11",
+      "kind": "medication",
+      "question": "Which iron supplement was prescribed for Meera?",
+      "answer": "Meera Verma was prescribed Ferrous sulphate 100 mg [S1].",
+      "status": "done",
+      "model": "gemini-3.1-flash-lite",
+      "error": null,
+      "cited": [
+        [
+          "rx_meera_2024-05.docx",
+          1
+        ]
+      ],
+      "answered": true,
+      "retrieval_hit": true,
+      "retrieval_doc_hit": true,
+      "answer_ok": true,
+      "missing": [],
+      "citation_ok": true
+    },
+    {
+      "id": "q12",
+      "kind": "narrative",
+      "question": "Has Asha ever had pneumonia?",
+      "answer": "Yes, Asha Verma was diagnosed with community-acquired pneumonia during her hospital admission in December 2023 [S1].",
+      "status": "done",
+      "model": "gemini-3.1-flash-lite",
+      "error": null,
+      "cited": [
+        [
+          "discharge_asha_2023-12.pdf",
+          1
+        ]
+      ],
+      "answered": true,
+      "retrieval_hit": true,
+      "retrieval_doc_hit": true,
+      "answer_ok": true,
+      "missing": [],
+      "citation_ok": true
+    },
+    {
+      "id": "q13",
+      "kind": "metric",
+      "question": "Is Ravi's uric acid high?",
+      "answer": "Yes, Ravi Verma's uric acid levels have consistently been flagged as high in all available records. The reference range provided in his reports is 3.5 - 7.2 mg/dL.\n\nHere are his recorded uric acid levels chronologically:\n\n*   **2023-06-02:** 7.7 mg/dL [S1][S9]\n*   **2023-11-21:** 7.9 mg/dL [S2][S7]\n*   **2024-04-16:** 8.2 mg/dL (unverified) [S3][S6]\n*   **2024-07-15:** 7.8 mg/dL [S4]\n*   **2025-02-11:** 8 mg/dL [S5][S8]\n\nUric acid is a waste product found in the blood; levels above the reference range may indicate hyperuricemia. Please discuss these results with your doctor to understand what they mean for Ravi's health and to determine if any follow-up is necessary.",
+      "status": "done",
+      "model": "gemini-3.1-flash-lite",
+      "error": null,
+      "cited": [
+        [
+          "lab_ravi_2023-06.pdf",
+          1
+        ],
+        [
+          "lab_ravi_2023-06.pdf",
+          1
+        ],
+        [
+          "scan_lab_ravi_2023-11.pdf",
+          1
+        ],
+        [
+          "scan_lab_ravi_2023-11.pdf",
+          1
+        ],
+        [
+          "hard_blur_ravi_2024-04.jpg",
+          1
+        ],
+        [
+          "hard_blur_ravi_2024-04.jpg",
+          1
+        ],
+        [
+          "lab_ravi_2024-07.pdf",
+          1
+        ],
+        [
+          "lab_ravi_2025-02.pdf",
+          2
+        ],
+        [
+          "lab_ravi_2025-02.pdf",
+          2
+        ]
+      ],
+      "answered": true,
+      "retrieval_hit": true,
+      "retrieval_doc_hit": true,
+      "answer_ok": true,
+      "missing": [],
+      "citation_ok": true
+    },
+    {
+      "id": "q14",
+      "kind": "medication",
+      "question": "What vitamin D dose was Asha prescribed?",
+      "answer": "Asha Verma was prescribed Cholecalciferol 60000 IU, to be taken as 1 tablet daily for 3 months [S2].\n\nCholecalciferol is a form of Vitamin D. Please discuss this prescription and your health concerns with your doctor.",
+      "status": "done",
+      "model": "gemini-3.1-flash-lite",
+      "error": null,
+      "cited": [
+        [
+          "rx_asha_2025-01.docx",
+          1
+        ]
+      ],
+      "answered": true,
+      "retrieval_hit": true,
+      "retrieval_doc_hit": true,
+      "answer_ok": true,
+      "missing": [],
+      "citation_ok": true
+    },
+    {
+      "id": "q15",
+      "kind": "metric",
+      "question": "What was Ravi's fasting glucose in February 2025?",
+      "answer": "Ravi Verma's fasting glucose in February 2025 was:\n\n*   **104 mg/dL** on 2025-02-11 [S1]\n*   **5.8 mmol/L** on 2025-02-11 [S3]\n\nFasting glucose measures the amount of sugar in your blood after you have not eaten for a period of time. Please discuss these results with your doctor to understand what they mean for your health.",
+      "status": "done",
+      "model": "gemini-3.1-flash-lite",
+      "error": null,
+      "cited": [
+        [
+          "lab_ravi_2025-02.pdf",
+          1
+        ],
+        [
+          "lab_ravi_2025-02.pdf",
+          1
+        ]
+      ],
+      "answered": true,
+      "retrieval_hit": true,
+      "retrieval_doc_hit": true,
+      "answer_ok": true,
+      "missing": [],
+      "citation_ok": true
+    },
+    {
+      "id": "q16",
+      "kind": "not_found",
+      "question": "What is Ravi's blood group?",
+      "answer": "I could not find information regarding Ravi Verma's blood group in the provided documents.",
+      "status": "done",
+      "model": "gemini-3.1-flash-lite",
+      "error": null,
+      "cited": [],
+      "answered": true,
+      "not_found_ok": true
+    },
+    {
+      "id": "q17",
+      "kind": "not_found",
+      "question": "Has Meera been vaccinated against measles?",
+      "answer": "I could not find any information regarding measles vaccinations in the provided medical records for Meera Verma. You may wish to discuss this with her doctor.",
+      "status": "done",
+      "model": "gemini-3.1-flash-lite",
+      "error": null,
+      "cited": [],
+      "answered": true,
+      "not_found_ok": true
+    },
+    {
+      "id": "q18",
+      "kind": "not_found",
+      "question": "What was Asha's eye power at her last eye test?",
+      "answer": "I could not find information about Asha's eye power or any eye tests in the provided documents. You may wish to discuss this with her doctor.",
+      "status": "done",
+      "model": "gemini-3.1-flash-lite",
+      "error": null,
+      "cited": [],
+      "answered": true,
+      "not_found_ok": true
+    },
+    {
+      "id": "q19",
+      "kind": "not_found",
+      "question": "Does anyone in the family have an allergy to penicillin?",
+      "answer": "I could not find any information regarding a penicillin allergy for any family member in the provided documents. You may wish to discuss this with your doctor to ensure your medical records are complete.",
+      "status": "done",
+      "model": "gemini-3.1-flash-lite",
+      "error": null,
+      "cited": [],
+      "answered": true,
+      "not_found_ok": true
+    }
+  ],
+  "llm": {
+    "calls": 0,
+    "cache_hits": 19
+  },
+  "voyage": {
+    "calls": 0,
+    "cache_hits": 19
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "file": "hard_blur_ravi_2024-04.jpg",
+  "mime": "image/jpeg",
+  "category": "hard_scan",
+  "profile": "Ravi Verma",
+  "notes": "hard: blur",
+  "expect_failure": false,
+  "expected": {
+    "doc_type": "lab_report",
+    "doc_date": "2024-04-16",
+    "provider": "Metro Lab Services",
+    "patient_name": "Ravi Verma",
+    "name_mismatch": false,
+    "observations": [
+      {
+        "code": "creatinine",
+        "value": 1.48,
+        "unit": "mg/dL",
+        "date": "2024-04-16",
+        "page": 1
+      },
+      {
+        "code": "urea",
+        "value": 42.0,
+        "unit": "mg/dL",
+        "date": "2024-04-16",
+        "page": 1
+      },
+      {
+        "code": "uric_acid",
+        "value": 8.2,
+        "unit": "mg/dL",
+        "date": "2024-04-16",
+        "page": 1
+      },
+      {
+        "code": "tsh",
+        "value": 6.46,
+        "unit": "\u00b5IU/mL",
+        "date": "2024-04-16",
+        "page": 1
+      }
+    ],
+    "medications": [],
+    "conditions": []
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "file": "hard_angle_meera_2024-02.jpg",
+  "mime": "image/jpeg",
+  "category": "hard_scan",
+  "profile": "Meera Verma",
+  "notes": "hard: angle",
+  "expect_failure": false,
+  "expected": {
+    "doc_type": "lab_report",
+    "doc_date": "2024-02-19",
+    "provider": "Metro Lab Services",
+    "patient_name": "Meera Verma",
+    "name_mismatch": false,
+    "observations": [
+      {
+        "code": "hemoglobin",
+        "value": 11.6,
+        "unit": "g/dL",
+        "date": "2024-02-19",
+        "page": 1
+      },
+      {
+        "code": "platelets",
+        "value": 320.0,
+        "unit": "\u00d710\u00b3/\u00b5L",
+        "date": "2024-02-19",
+        "page": 1
+      },
+      {
+        "code": "vitamin_d",
+        "value": 20.2,
+        "unit": "ng/mL",
+        "date": "2024-02-19",
+        "page": 1
+      },
+      {
+        "code": "vitamin_b12",
+        "value": 438.0,
+        "unit": "pg/mL",
+        "date": "2024-02-19",
+        "page": 1
+      }
+    ],
+    "medications": [],
+    "conditions": []
+  }
+}

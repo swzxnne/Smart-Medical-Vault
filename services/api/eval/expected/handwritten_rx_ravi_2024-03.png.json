@@ -1,0 +1,36 @@
+{
+  "file": "handwritten_rx_ravi_2024-03.png",
+  "mime": "image/png",
+  "category": "handwritten_rx",
+  "profile": "Ravi Verma",
+  "notes": "simulated handwriting",
+  "expect_failure": false,
+  "expected": {
+    "doc_type": "prescription",
+    "doc_date": "2024-03-02",
+    "provider": "Care Point Clinic",
+    "patient_name": "Ravi Verma",
+    "name_mismatch": false,
+    "observations": [
+      {
+        "code": "bp_systolic",
+        "value": 142.0,
+        "unit": "mmHg",
+        "date": "2024-03-02",
+        "page": 1
+      },
+      {
+        "code": "bp_diastolic",
+        "value": 89.0,
+        "unit": "mmHg",
+        "date": "2024-03-02",
+        "page": 1
+      }
+    ],
+    "medications": [
+      "Levothyroxine 25 mcg",
+      "Pantoprazole 40 mg"
+    ],
+    "conditions": []
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "file": "opd_asha_2023-11.png",
+  "mime": "image/png",
+  "category": "opd_card",
+  "profile": "Asha Verma",
+  "notes": "",
+  "expect_failure": false,
+  "expected": {
+    "doc_type": "consultation_note",
+    "doc_date": "2023-11-05",
+    "provider": "Green Valley Hospital",
+    "patient_name": "Asha Verma",
+    "name_mismatch": false,
+    "observations": [
+      {
+        "code": "bp_systolic",
+        "value": 144.0,
+        "unit": "mmHg",
+        "date": "2023-11-05",
+        "page": 1
+      },
+      {
+        "code": "bp_diastolic",
+        "value": 89.0,
+        "unit": "mmHg",
+        "date": "2023-11-05",
+        "page": 1
+      },
+      {
+        "code": "pulse",
+        "value": 82.0,
+        "unit": "bpm",
+        "date": "2023-11-05",
+        "page": 1
+      },
+      {
+        "code": "weight",
+        "value": 69.0,
+        "unit": "kg",
+        "date": "2023-11-05",
+        "page": 1
+      },
+      {
+        "code": "spo2",
+        "value": 98.0,
+        "unit": "%",
+        "date": "2023-11-05",
+        "page": 1
+      }
+    ],
+    "medications": [],
+    "conditions": [
+      "Elevated blood pressure"
+    ]
+  }
+}
